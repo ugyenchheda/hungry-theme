@@ -1,0 +1,2880 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hungry - V1.0.0\n"
+"POT-Creation-Date: 2015-04-29 13:35-0000\n"
+"PO-Revision-Date: 2015-04-29 13:37-0000\n"
+"Last-Translator: Dan <subatomicdan@gmail.com>\n"
+"Language-Team: Subatomic Themes <subatomicdan@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_html_e;esc_attr__;esc_attr_e;"
+"_n_noop\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../admin\n"
+
+#: ../404.php:23
+msgid "404"
+msgstr ""
+
+#: ../404.php:24 ../intro.php:33
+msgid "Page Not Found!"
+msgstr ""
+
+#: ../404.php:26
+msgid "It seems that what you were looking for can no longer be found."
+msgstr ""
+
+#: ../404.php:27
+msgid "Why not try a search instead?"
+msgstr ""
+
+#: ../archive.php:45 ../index.php:44 ../search.php:43
+msgid "&laquo; Newer Entries"
+msgstr ""
+
+#: ../archive.php:46 ../index.php:45 ../search.php:44
+msgid "Older Entries &raquo;"
+msgstr ""
+
+#: ../comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:78
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Submit Comment"
+msgstr ""
+
+#: ../content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-page.php:38 ../content.php:61
+msgid "&hellip;view the rest"
+msgstr ""
+
+#: ../content-page.php:42 ../content.php:65
+msgid "Pages"
+msgstr ""
+
+#: ../content-page.php:56
+msgid "Edit"
+msgstr ""
+
+#: ../content-recipe.php:49
+msgid "Price:"
+msgstr ""
+
+#: ../content-recipe.php:62
+msgid "Menu:"
+msgstr ""
+
+#: ../content-recipe.php:73 ../inc/template-tags.php:57
+msgid ", "
+msgstr ""
+
+#: ../content-recipe.php:86
+msgid "Author:"
+msgstr ""
+
+#: ../content.php:24
+msgid "Featured Post"
+msgstr ""
+
+#: ../functions.php:69 ../inc/class-tgm-plugin-activation.php:226
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:70 ../inc/class-tgm-plugin-activation.php:227
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:71 ../inc/class-tgm-plugin-activation.php:228
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:72
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:73 ../inc/class-tgm-plugin-activation.php:230
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: ../functions.php:74 ../inc/class-tgm-plugin-activation.php:231
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: ../functions.php:75 ../inc/class-tgm-plugin-activation.php:232
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: ../functions.php:76 ../inc/class-tgm-plugin-activation.php:233
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../functions.php:77 ../inc/class-tgm-plugin-activation.php:234
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../functions.php:78 ../inc/class-tgm-plugin-activation.php:235
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: ../functions.php:79 ../inc/class-tgm-plugin-activation.php:236
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: ../functions.php:80 ../inc/class-tgm-plugin-activation.php:237
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: ../functions.php:81 ../inc/class-tgm-plugin-activation.php:238
+msgid "Begin installing plugin"
+msgstr ""
+
+#: ../functions.php:82 ../inc/class-tgm-plugin-activation.php:239
+msgid "Begin activating plugin"
+msgstr ""
+
+#: ../functions.php:83 ../inc/class-tgm-plugin-activation.php:240
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:84 ../inc/class-tgm-plugin-activation.php:242
+#: ../inc/class-tgm-plugin-activation.php:2107
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:85
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:203
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:253
+msgid "Blog Main Sidebar"
+msgstr ""
+
+#: ../functions.php:255
+msgid "Add Widgets here to appear in your blog page's main Sidebar."
+msgstr ""
+
+#: ../functions.php:268
+msgid "Footer - First Column"
+msgstr ""
+
+#: ../functions.php:270
+msgid "Add Widgets here to appear in your site footer's FIRST column."
+msgstr ""
+
+#: ../functions.php:283
+msgid "Footer - Second Column"
+msgstr ""
+
+#: ../functions.php:285
+msgid "Add Widgets here to appear in your site footer's SECOND column."
+msgstr ""
+
+#: ../functions.php:298
+msgid "Footer - Third Column"
+msgstr ""
+
+#: ../functions.php:300
+msgid "Add Widgets here to appear in your site footer's THIRD column."
+msgstr ""
+
+#: ../functions.php:313
+msgid "Footer - Fourth Column"
+msgstr ""
+
+#: ../functions.php:315
+msgid "Add Widgets here to appear in your site footer's FOURTH column."
+msgstr ""
+
+#: ../header.php:70 ../inc/theme-options-legacy.php:379
+#: ../inc/theme-options.php:382
+msgid "Navigation"
+msgstr ""
+
+#: ../header.php:102
+#, php-format
+msgid "There are no menus assigned to this location. Why not %s"
+msgstr ""
+
+#: ../header.php:107
+msgid "add some?"
+msgstr ""
+
+#: ../inc/back-compat.php:39 ../inc/back-compat.php:52
+#, php-format
+msgid ""
+"Hungry requires at least WordPress version 4.1. You are running version %s. "
+"Please upgrade to the latest version of WordPress and try again."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:229
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:241
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:243
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:244
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:245
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:595
+#: ../inc/class-tgm-plugin-activation.php:2337
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1281
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1285
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1290
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1293
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1293
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1296
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1299
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1481
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1497
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1498
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1499
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1500
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1518
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1519
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1630
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1746
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2090
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2091
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2092
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2093
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2094
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2095
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2106
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2229
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2230
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2234
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2235
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2235
+#: ../inc/class-tgm-plugin-activation.php:2242
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2235
+#: ../inc/class-tgm-plugin-activation.php:2242
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2236
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2237
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2241
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2242
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2243
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2244
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/template-tags.php:48 ../inc/template-tags.php:124
+msgid "Modified on"
+msgstr ""
+
+#: ../inc/template-tags.php:72
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:72
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:72
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:95
+msgid "Tagged:"
+msgstr ""
+
+#: ../inc/template-tags.php:315
+#, php-format
+msgid ""
+"<h5 class=\"comment-author-name\">%s<span class=\"comment-author-says"
+"\">Says&hellip;</span></h5>"
+msgstr ""
+
+#: ../inc/template-tags.php:326
+#, php-format
+msgid "Replied on %1$s %2$s %3$s"
+msgstr ""
+
+#: ../inc/template-tags.php:328
+msgid "at"
+msgstr ""
+
+#: ../inc/template-tags.php:333
+msgid "(Edit)"
+msgstr ""
+
+#: ../inc/template-tags.php:343
+msgid "Reply"
+msgstr ""
+
+#: ../inc/template-tags.php:364
+msgid "Older Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:367
+msgid "Newer Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:560
+msgid "View Recipe"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:75
+msgid "Section via hook"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:76
+msgid ""
+"This is a section created by adding a filter to the sections array. Can be "
+"used by child themes to add/remove sections from the options."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:171 ../inc/theme-options.php:172
+msgid "Enabled"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:172 ../inc/theme-options.php:173
+msgid "Disabled"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:173 ../inc/theme-options.php:174
+msgid "On"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:174 ../inc/theme-options.php:175
+msgid "Off"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:181 ../inc/theme-options.php:182
+msgid "About Us"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:182 ../inc/theme-options.php:183
+msgid "Testimonials"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:183 ../inc/theme-options.php:184
+msgid "Food Menu"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:184 ../inc/theme-options-legacy.php:1114
+#: ../inc/theme-options.php:185 ../inc/theme-options.php:1138
+msgid "Slogan 01"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:185 ../inc/theme-options.php:186
+msgid "Meet the Staff"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:186 ../inc/theme-options-legacy.php:1115
+#: ../inc/theme-options.php:187 ../inc/theme-options.php:1139
+msgid "Slogan 02"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:187 ../inc/theme-options-legacy.php:382
+#: ../inc/theme-options.php:188 ../inc/theme-options.php:385
+msgid "Gallery"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:188 ../inc/theme-options.php:189
+msgid "Blog"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:189 ../inc/theme-options.php:190
+msgid "Reservations"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:211 ../inc/theme-options-legacy.php:1116
+#: ../inc/theme-options.php:213 ../inc/theme-options.php:1140
+msgid "Slogan 03"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:212 ../inc/theme-options-legacy.php:1117
+#: ../inc/theme-options.php:214 ../inc/theme-options.php:1141
+msgid "Slogan 04"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:218 ../inc/theme-options.php:220
+msgid "None"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:219 ../inc/theme-options.php:221
+msgid "Post ID"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:220 ../inc/theme-options.php:222
+msgid "Post Author"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:221 ../inc/theme-options.php:223
+msgid "Post Title"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:222 ../inc/theme-options.php:224
+msgid "Post Slug Name"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:223 ../inc/theme-options.php:225
+msgid "Post Date"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:224 ../inc/theme-options.php:226
+msgid "Menu Order"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:225 ../inc/theme-options.php:227
+msgid "Randomize"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:231 ../inc/theme-options.php:233
+msgid "Attention Seekers"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:233 ../inc/theme-options.php:235
+msgid "Bounce"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:234 ../inc/theme-options.php:236
+msgid "Flash"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:235 ../inc/theme-options.php:237
+msgid "Pulse"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:236 ../inc/theme-options.php:238
+msgid "Rubber Band"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:237 ../inc/theme-options.php:239
+msgid "Shake"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:238 ../inc/theme-options.php:240
+msgid "Swing"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:239 ../inc/theme-options.php:241
+msgid "TaDa!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:240 ../inc/theme-options.php:242
+msgid "Wobble"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:243 ../inc/theme-options.php:245
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:245 ../inc/theme-options.php:247
+msgid "Bounce In"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:246 ../inc/theme-options.php:248
+msgid "Bounce In Down"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:247 ../inc/theme-options.php:249
+msgid "Bounce In Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:248 ../inc/theme-options.php:250
+msgid "Bounce In Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:249 ../inc/theme-options.php:251
+msgid "Bounce In Up"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:252 ../inc/theme-options.php:254
+msgid "Bouncing Exits"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:254 ../inc/theme-options.php:256
+msgid "Bounce Out"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:255 ../inc/theme-options.php:257
+msgid "Bounce Out Down"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:256 ../inc/theme-options.php:258
+msgid "Bounce Out Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:257 ../inc/theme-options.php:259
+msgid "Bounce Out Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:258 ../inc/theme-options.php:260
+msgid "Bounce Out Up"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:261 ../inc/theme-options.php:263
+msgid "Fading Entrances"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:263 ../inc/theme-options.php:265
+msgid "Fade In"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:264 ../inc/theme-options.php:266
+msgid "Fade In Down"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:265 ../inc/theme-options.php:267
+msgid "Fade In Down (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:266 ../inc/theme-options.php:268
+msgid "Fade In Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:267 ../inc/theme-options.php:269
+msgid "Fade In Left (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:268 ../inc/theme-options.php:270
+msgid "Fade In Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:269 ../inc/theme-options.php:271
+msgid "Fade In Right (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:270 ../inc/theme-options.php:272
+msgid "Fade In Up"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:271 ../inc/theme-options.php:273
+msgid "Fade In Up (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:274 ../inc/theme-options.php:276
+msgid "Fading Exits"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:276 ../inc/theme-options.php:278
+msgid "Fade Out"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:277 ../inc/theme-options.php:279
+msgid "Fade Out Down"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:278 ../inc/theme-options.php:280
+msgid "Fade Out Down (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:279 ../inc/theme-options.php:281
+msgid "Fade Out Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:280 ../inc/theme-options.php:282
+msgid "Fade Out Left (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:281 ../inc/theme-options.php:283
+msgid "Fade Out Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:282 ../inc/theme-options.php:284
+msgid "Fade Out Right (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:283 ../inc/theme-options.php:285
+msgid "Fade Out Up"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:284 ../inc/theme-options.php:286
+msgid "Fade Out Up (Big)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:287 ../inc/theme-options.php:289
+msgid "Flippers"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:289 ../inc/theme-options.php:291
+msgid "Flip"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:290 ../inc/theme-options.php:292
+msgid "Flip In X"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:291 ../inc/theme-options.php:293
+msgid "Flip In Y"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:292 ../inc/theme-options.php:294
+msgid "Flip Out X"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:293 ../inc/theme-options.php:295
+msgid "Flip Out Y"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:296 ../inc/theme-options.php:298
+msgid "Lightspeed"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:298 ../inc/theme-options.php:300
+msgid "Lightspeed In"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:299 ../inc/theme-options.php:301
+msgid "Lightspeed Out"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:302 ../inc/theme-options.php:304
+msgid "Rotating Entrances"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:304 ../inc/theme-options.php:306
+msgid "Rotate In"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:305 ../inc/theme-options.php:307
+msgid "Rotate In Down-Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:306 ../inc/theme-options.php:308
+msgid "Rotate In Down-Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:307 ../inc/theme-options.php:309
+msgid "Rotate In Up-Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:308 ../inc/theme-options.php:310
+msgid "Rotate In Up-Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:311 ../inc/theme-options.php:313
+msgid "Rotating Exits"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:313 ../inc/theme-options.php:315
+msgid "Rotate Out"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:314 ../inc/theme-options.php:316
+msgid "Rotate Out Down-Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:315 ../inc/theme-options.php:317
+msgid "Rotate Out Down-Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:316 ../inc/theme-options.php:318
+msgid "Rotate Out Up-Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:317 ../inc/theme-options.php:319
+msgid "Rotate Out Up-Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:320 ../inc/theme-options.php:322
+msgid "Specials"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:322 ../inc/theme-options.php:324
+msgid "Hinge"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:323 ../inc/theme-options.php:325
+msgid "Roll In"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:324 ../inc/theme-options.php:326
+msgid "Roll Out"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:327 ../inc/theme-options.php:329
+msgid "Zoom Entrances"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:329 ../inc/theme-options.php:331
+msgid "Zoom In"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:330 ../inc/theme-options.php:332
+msgid "Zoom In Down"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:331 ../inc/theme-options.php:333
+msgid "Zoom In Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:332 ../inc/theme-options.php:334
+msgid "Zoom In Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:333 ../inc/theme-options.php:335
+msgid "Zoom In Up"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:336 ../inc/theme-options.php:338
+msgid "Zoom Exits"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:338 ../inc/theme-options.php:340
+msgid "Zoom Out"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:339 ../inc/theme-options.php:341
+msgid "Zoom Out Down"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:340 ../inc/theme-options.php:342
+msgid "Zoom Out Left"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:341 ../inc/theme-options.php:343
+msgid "Zoom Out Right"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:342 ../inc/theme-options.php:344
+msgid "Zoom Out Up"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:356 ../inc/theme-options-legacy.php:369
+#: ../inc/theme-options.php:358 ../inc/theme-options.php:372
+msgid "Introduction"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:357 ../inc/theme-options.php:359
+msgid ""
+"Howdy! Welcome to the theme options panel for <strong>Hungry</strong>. There "
+"are plenty of options and settings to tinker with here, so you'd best get "
+"exploring! But if you are having trouble figuring out where to start, then "
+"check out the handy guides found in the theme's documentaion. This can be "
+"found in the list of links below. Happy editing!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:365 ../inc/theme-options.php:367
+msgid "Useful links to help you on your way"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:370 ../inc/theme-options.php:373
+msgid "Installation - Wordpress"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:371 ../inc/theme-options.php:374
+msgid "Installation - The Theme"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:372 ../inc/theme-options.php:375
+msgid "Installation - Plugins"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:373 ../inc/theme-options.php:376
+msgid "Using a Child Theme"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:374 ../inc/theme-options.php:377
+msgid "Importing Demo Content"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:375 ../inc/theme-options.php:378
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:376 ../inc/theme-options.php:379
+msgid "Custom Headers"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:377 ../inc/theme-options.php:380
+msgid "Homepage Setup"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:378 ../inc/theme-options-legacy.php:1047
+#: ../inc/theme-options.php:381 ../inc/theme-options.php:1071
+msgid "Homepage Layout"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:380 ../inc/theme-options.php:383
+msgid "Adding Recipes"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:381 ../inc/theme-options.php:384
+msgid "Displaying Menus"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:383 ../inc/theme-options.php:386
+msgid "Custom Widgets"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:384 ../inc/theme-options.php:387
+msgid "Shortcodes"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:385 ../inc/theme-options.php:388
+msgid "Reservation Form"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:386 ../inc/theme-options.php:389
+msgid "Translation"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:387 ../inc/theme-options.php:390
+msgid "Sources &amp; Credits"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:407 ../inc/theme-options.php:411
+msgid "General Settings"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:408 ../inc/theme-options.php:412
+msgid ""
+"Options and settings that don't belong in any specific submenu can generally "
+"be found here."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:416 ../inc/theme-options.php:420
+msgid "Accent Colour"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:417 ../inc/theme-options.php:421
+msgid ""
+"The accent colour is used throughout site on certain elements, such as "
+"links, section headings, hover states, borders etc. You can configure this "
+"here using the colour picker tool."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:418 ../inc/theme-options.php:422
+msgid "Pick a colour that best suits your own branding identity."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:436 ../inc/theme-options.php:440
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:437 ../inc/theme-options.php:441
+msgid ""
+"Choose the currency symbol to be displayed. This symbol is prefixed to price "
+"values in the food menu."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:438 ../inc/theme-options.php:442
+msgid "Pick a currency symbol that is most used in your country."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:442 ../inc/theme-options.php:446
+msgid "&dollar;"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:443 ../inc/theme-options.php:447
+msgid "&pound;"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:444 ../inc/theme-options.php:448
+msgid "&euro;"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:445 ../inc/theme-options.php:449
+msgid "&yen;"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:446 ../inc/theme-options.php:450
+msgid "&#8355;"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:447 ../inc/theme-options.php:451
+msgid "&#8356;"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:464 ../inc/theme-options.php:468
+msgid "Scroll Reveal"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:465 ../inc/theme-options.php:469
+msgid ""
+"Use this option to enable revealing animations when elements are scrolled "
+"into view."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:466 ../inc/theme-options.php:470
+msgid ""
+"This uses <code>wow.js</code>. You can find out more about this plugin and "
+"its options by visiting their website - <a href=\"https://github.com/"
+"matthieua/WOW\" target=\"_blank\">github.com/matthieua/WOW</a>"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:484 ../inc/theme-options.php:488
+msgid "Enable the \"Back-to-Top\" Button"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:485 ../inc/theme-options.php:489
+msgid ""
+"Use this option to enable or disable the back-to-top button that appears in "
+"the bottom right hand side of the screen."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:504 ../inc/theme-options.php:508
+msgid "Favicon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:505 ../inc/theme-options.php:509
+msgid ""
+"Upload an icon to use for your site's favicon. If you already have one in "
+"your site's root directory, you don't need to worry about this."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:506 ../inc/theme-options.php:510
+msgid ""
+"Use an icon file with the <code>.ico</code> filename extension thats at "
+"least 16x16 pixels in size. You can also use a <code>.png</code> file too, "
+"but not all browsers support it. If you need to generate an <code>.ico</"
+"code> file, try <a href=\"http://www.favicon.co.uk/\" target=\"_blank\">this "
+"tool</a>."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:520 ../inc/theme-options.php:524
+msgid "Touch Icon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:521 ../inc/theme-options.php:525
+msgid ""
+"These icons are similar to the above favicons but are usually bigger in size "
+"and are used for devices like smartphones and tablets."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:522 ../inc/theme-options.php:526
+msgid ""
+"The recommended size for this is 152x152 pixels in a <code>.png</code> "
+"format."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:536 ../inc/theme-options.php:540
+msgid "Blog Title"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:537 ../inc/theme-options.php:541
+msgid ""
+"Enter a title for the default blog page. This title will be used if no other "
+"title is found."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:557 ../inc/theme-options.php:561
+msgid "Site Header"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:558 ../inc/theme-options.php:562
+msgid "Everything you see in the header of the site can be configured here."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:567 ../inc/theme-options.php:571
+msgid "Logo"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:568 ../inc/theme-options.php:572
+msgid ""
+"Upload an image to use for your main logo. This will appear in your "
+"website's navigation bar."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:569 ../inc/theme-options.php:573
+msgid ""
+"Use a logo that is X2 the size of the original. This will make it look "
+"better on retina displays!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:574 ../inc/theme-options-legacy.php:810
+#: ../inc/theme-options-legacy.php:1052 ../inc/theme-options-legacy.php:1303
+#: ../inc/theme-options-legacy.php:2261 ../inc/theme-options-legacy.php:2287
+#: ../inc/theme-options-legacy.php:2313 ../inc/theme-options.php:578
+#: ../inc/theme-options.php:834 ../inc/theme-options.php:1076
+#: ../inc/theme-options.php:1327 ../inc/theme-options.php:2289
+#: ../inc/theme-options.php:2315 ../inc/theme-options.php:2341
+msgid "Tip!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:575 ../inc/theme-options.php:579
+msgid ""
+"If this field is empty, your site's title will be used as a H1 tag instead!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:589 ../inc/theme-options.php:593
+msgid "Logo's Alternate Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:590 ../inc/theme-options-legacy.php:826
+#: ../inc/theme-options.php:594 ../inc/theme-options.php:850
+msgid ""
+"Enter some text for the image's \"alt\" attribute. Recommended for SEO "
+"purposes."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:591 ../inc/theme-options-legacy.php:827
+#: ../inc/theme-options-legacy.php:1638 ../inc/theme-options-legacy.php:1656
+#: ../inc/theme-options-legacy.php:1674 ../inc/theme-options-legacy.php:1872
+#: ../inc/theme-options-legacy.php:2144 ../inc/theme-options-legacy.php:2162
+#: ../inc/theme-options-legacy.php:2180 ../inc/theme-options-legacy.php:2424
+#: ../inc/theme-options-legacy.php:2561 ../inc/theme-options-legacy.php:2698
+#: ../inc/theme-options-legacy.php:2834 ../inc/theme-options-legacy.php:2937
+#: ../inc/theme-options-legacy.php:2955 ../inc/theme-options-legacy.php:2973
+#: ../inc/theme-options-legacy.php:3004 ../inc/theme-options-legacy.php:3016
+#: ../inc/theme-options-legacy.php:3168 ../inc/theme-options-legacy.php:3180
+#: ../inc/theme-options-legacy.php:3329 ../inc/theme-options-legacy.php:3341
+#: ../inc/theme-options-legacy.php:3520 ../inc/theme-options-legacy.php:3538
+#: ../inc/theme-options-legacy.php:3556 ../inc/theme-options-legacy.php:3637
+#: ../inc/theme-options-legacy.php:3655 ../inc/theme-options-legacy.php:3707
+#: ../inc/theme-options-legacy.php:3815 ../inc/theme-options-legacy.php:3833
+#: ../inc/theme-options-legacy.php:3851 ../inc/theme-options.php:595
+#: ../inc/theme-options.php:851 ../inc/theme-options.php:1669
+#: ../inc/theme-options.php:1687 ../inc/theme-options.php:1705
+#: ../inc/theme-options.php:1901 ../inc/theme-options.php:2172
+#: ../inc/theme-options.php:2190 ../inc/theme-options.php:2208
+#: ../inc/theme-options.php:2450 ../inc/theme-options.php:2604
+#: ../inc/theme-options.php:2758 ../inc/theme-options.php:2911
+#: ../inc/theme-options.php:3032 ../inc/theme-options.php:3050
+#: ../inc/theme-options.php:3068 ../inc/theme-options.php:3099
+#: ../inc/theme-options.php:3111 ../inc/theme-options.php:3263
+#: ../inc/theme-options.php:3275 ../inc/theme-options.php:3424
+#: ../inc/theme-options.php:3436 ../inc/theme-options.php:3614
+#: ../inc/theme-options.php:3632 ../inc/theme-options.php:3650
+#: ../inc/theme-options.php:3730 ../inc/theme-options.php:3748
+#: ../inc/theme-options.php:3799 ../inc/theme-options.php:3906
+#: ../inc/theme-options.php:3924 ../inc/theme-options.php:3942
+msgid "No HTML is allowed in this field!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:601 ../inc/theme-options.php:605
+msgid "Logo Dimensions"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:602 ../inc/theme-options-legacy.php:838
+#: ../inc/theme-options.php:606 ../inc/theme-options.php:862
+msgid ""
+"Configure the size of your logo here. This is useful for re-sizing larger "
+"logos for divices that have retina displays."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:603 ../inc/theme-options-legacy.php:839
+#: ../inc/theme-options.php:607 ../inc/theme-options.php:863
+msgid ""
+"These values should be the same size as the image you uploaded, or 2X "
+"smaller."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:620 ../inc/theme-options.php:624
+msgid "Logo Dimensions (Short)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:621 ../inc/theme-options-legacy.php:640
+#: ../inc/theme-options.php:625 ../inc/theme-options.php:644
+msgid ""
+"This is handy for when the navbar shrinks as it moves from the top of the "
+"page."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:622 ../inc/theme-options.php:626
+msgid "This value is set in percentages - e.g. 50% = Half the original size."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:639 ../inc/theme-options.php:643
+msgid "Logo Positioning"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:661 ../inc/theme-options.php:665
+msgid "Logo Positioning (Short)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:662 ../inc/theme-options.php:666
+msgid ""
+"Position the logo more acurately when the navbar has moved from the top of "
+"the page and shrunk."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:690 ../inc/theme-options.php:694
+msgid "Use parallax effect for subpage headers"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:691 ../inc/theme-options.php:695
+msgid ""
+"By default, this theme uses WordPress's built-in custom header image "
+"feature. You can use this option to add a parallax scrolling effect similar "
+"to the section background images."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:710 ../inc/theme-options.php:714
+msgid "Use Default Gradient"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:711 ../inc/theme-options.php:715
+msgid ""
+"Stick with the default gradient in the navigation bar by leaving this "
+"switched on, or you can configure your own colour using the option below."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:723 ../inc/theme-options.php:727
+msgid "Nav Background Colour"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:724 ../inc/theme-options.php:728
+msgid ""
+"Use the colour picker to choose a custom background colour for your "
+"navigation bar. Transparency is also available"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:725 ../inc/theme-options.php:729
+msgid ""
+"If you want this colour to take effect, make sure the option above is "
+"\"Disabled\"."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:736 ../inc/theme-options.php:740
+msgid "Select Colour"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:737 ../inc/theme-options.php:741
+msgid "Choose"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:738 ../inc/theme-options.php:742
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:747 ../inc/theme-options.php:751
+msgid "Nav Text Colour"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:748 ../inc/theme-options.php:752
+msgid ""
+"Use the colour picker to change the colour of the text in the main "
+"navigation bar."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:749 ../inc/theme-options.php:753
+msgid "Note that this won't alter the colour in the submenus."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:769 ../inc/theme-options.php:793
+msgid "Site Footer"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:770 ../inc/theme-options.php:794
+msgid ""
+"All of the footer elements, including backgrounds, logos and copy text, can "
+"be edited here."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:779 ../inc/theme-options.php:803
+msgid "Footer Widget Area Background"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:780 ../inc/theme-options.php:804
+msgid ""
+"You can upload an image to use as the footer's background, or if you prefer "
+"to keep things simple, you can have a background colour. You can even have "
+"both if you want to be creative!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:781 ../inc/theme-options-legacy.php:793
+#: ../inc/theme-options-legacy.php:1808 ../inc/theme-options-legacy.php:2390
+#: ../inc/theme-options-legacy.php:2527 ../inc/theme-options-legacy.php:2664
+#: ../inc/theme-options-legacy.php:2801 ../inc/theme-options-legacy.php:3673
+#: ../inc/theme-options.php:805 ../inc/theme-options.php:817
+#: ../inc/theme-options.php:1838 ../inc/theme-options.php:2417
+#: ../inc/theme-options.php:2571 ../inc/theme-options.php:2725
+#: ../inc/theme-options.php:2879 ../inc/theme-options.php:3766
+msgid ""
+"It is recommended that you use an image that is 1920 pixels wide and quite "
+"high. This will make sure it looks good on screens with wide displays."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:791 ../inc/theme-options.php:815
+msgid "Footer Bottom Area Background"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:792 ../inc/theme-options.php:816
+msgid ""
+"This is similar to the above option. This is the very bottom of the site, "
+"where the logo and copyright text is."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:803 ../inc/theme-options.php:827
+msgid "Footer Logo"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:804 ../inc/theme-options.php:828
+msgid "Upload an image to use for the logo displayed in the site footer."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:805 ../inc/theme-options.php:829
+msgid ""
+"Use a logo that is X2 the size of the original. This will make it look "
+"better on retina displays."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:811 ../inc/theme-options.php:835
+msgid "If this field is empty, the copyright text will be centered instead."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:825 ../inc/theme-options.php:849
+msgid "Footer Logo's Alternate Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:837 ../inc/theme-options.php:861
+msgid "Footer Logo Dimensions"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:856 ../inc/theme-options.php:880
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:857 ../inc/theme-options.php:881
+msgid ""
+"Use this space to display some copyright information or something similar. "
+"It appears usually in the bottom right."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:858 ../inc/theme-options.php:882
+msgid ""
+"You can use <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code> and "
+"<code>&lt;a&gt;</code> tags here."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:891 ../inc/theme-options.php:915
+msgid "Typography"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:892 ../inc/theme-options.php:916
+msgid ""
+"Hungry uses fonts from Google's huge font library. Default fonts have been "
+"set, but feel free to change them to your liking! For more information on "
+"Google fonts, please visit the website link below. Keep in mind that the "
+"primary and secondary fonts will load all of the available styles for that "
+"font. Just remember, the more variants there are, the longer your page will "
+"take to load!<br /><br /><a class=\"button\" href=\"https://www.google.com/"
+"fonts\" target=\"_blank\">Google Fonts Website</a>"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:901 ../inc/theme-options.php:925
+msgid "Primary Font (Body)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:902 ../inc/theme-options.php:926
+msgid ""
+"This is the main font used throught out the site and is mainly used for body "
+"text."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:903 ../inc/theme-options.php:927
+msgid ""
+"Since this is generally the smallest font, be sure to use one that's easy to "
+"read."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:931 ../inc/theme-options.php:955
+msgid "Secondary Font (Headings)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:932 ../inc/theme-options.php:956
+msgid ""
+"This font is used in headings and certain other elements, such as the "
+"navigation bar."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:933 ../inc/theme-options.php:957
+msgid ""
+"Note that this font mainly applies to headings H1 - H6. Some of the other "
+"stylings other than \"font-family\" may not be applied to other elements."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:966 ../inc/theme-options.php:990
+msgid "Special Font"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:967 ../inc/theme-options.php:991
+msgid ""
+"This font is used for special headers, such as section headings and the "
+"slogan rotator on the homepage."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1006 ../inc/theme-options.php:1030
+msgid "Custom Styling"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1007 ../inc/theme-options.php:1031
+msgid ""
+"If there are elements in the theme that you need to do deeper customization "
+"with, this is the place to do it :)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1016 ../inc/theme-options.php:1040
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1017 ../inc/theme-options.php:1041
+msgid ""
+"You can use this editor to write your own custom CSS code. Any CSS that you "
+"write here will override any styling that has previously been declared."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1018 ../inc/theme-options.php:1042
+msgid ""
+"No need to add <code>&lt;style&gt;</code> tags here, they will be added "
+"automatically!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1038 ../inc/theme-options.php:1062
+msgid "Homepage"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1039 ../inc/theme-options.php:1063
+msgid ""
+"Here you can drag and drop sections to create a unique layout for your "
+"homepage. Simply drag items over to the <strong>Enabled</strong> column. "
+"Anything you don't want, simply drag it back to the <strong>Disabled</"
+"strong> column!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1048 ../inc/theme-options.php:1072
+msgid ""
+"<strong>Note</strong> - The Homepage Template must be selected when you "
+"create your page via the \"Pages\" panel."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1053 ../inc/theme-options.php:1077
+msgid ""
+"You can even display content from your WordPress pages. Simply drag them "
+"over from the list!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1078 ../inc/theme-options.php:1102
+msgid "Slogan Rotator"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1079 ../inc/theme-options.php:1103
+msgid ""
+"The slogan rotator is a great way to display nice messages to viewers with "
+"some unique animation effects. This will display when the homepage template "
+"is used."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1088 ../inc/theme-options.php:1112
+msgid "Text Before Slogans"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1089 ../inc/theme-options.php:1113
+msgid "The intro text that appears just above the slogan rotator."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1090 ../inc/theme-options.php:1114
+msgid "Use <code>&lt;em&gt;</code> tags to use the theme's accent colour."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1101 ../inc/theme-options.php:1125
+msgid "Header Slogans"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1102 ../inc/theme-options.php:1126
+msgid "Enter the text for each of the slogans here."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1103 ../inc/theme-options.php:1127
+msgid "No HTML is allowed in these fields!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1107 ../inc/theme-options-legacy.php:1644
+#: ../inc/theme-options-legacy.php:1662 ../inc/theme-options-legacy.php:1686
+#: ../inc/theme-options-legacy.php:1884 ../inc/theme-options-legacy.php:2150
+#: ../inc/theme-options-legacy.php:2168 ../inc/theme-options-legacy.php:2192
+#: ../inc/theme-options-legacy.php:2436 ../inc/theme-options-legacy.php:2573
+#: ../inc/theme-options-legacy.php:2710 ../inc/theme-options-legacy.php:2846
+#: ../inc/theme-options-legacy.php:2943 ../inc/theme-options-legacy.php:2961
+#: ../inc/theme-options-legacy.php:2985 ../inc/theme-options-legacy.php:3526
+#: ../inc/theme-options-legacy.php:3544 ../inc/theme-options-legacy.php:3568
+#: ../inc/theme-options-legacy.php:3643 ../inc/theme-options-legacy.php:3661
+#: ../inc/theme-options-legacy.php:3719 ../inc/theme-options-legacy.php:3821
+#: ../inc/theme-options-legacy.php:3839 ../inc/theme-options-legacy.php:3863
+#: ../inc/theme-options.php:1131 ../inc/theme-options.php:1675
+#: ../inc/theme-options.php:1693 ../inc/theme-options.php:1717
+#: ../inc/theme-options.php:1913 ../inc/theme-options.php:2178
+#: ../inc/theme-options.php:2196 ../inc/theme-options.php:2220
+#: ../inc/theme-options.php:2462 ../inc/theme-options.php:2616
+#: ../inc/theme-options.php:2770 ../inc/theme-options.php:2923
+#: ../inc/theme-options.php:3038 ../inc/theme-options.php:3056
+#: ../inc/theme-options.php:3080 ../inc/theme-options.php:3620
+#: ../inc/theme-options.php:3638 ../inc/theme-options.php:3662
+#: ../inc/theme-options.php:3736 ../inc/theme-options.php:3754
+#: ../inc/theme-options.php:3811 ../inc/theme-options.php:3912
+#: ../inc/theme-options.php:3930 ../inc/theme-options.php:3954
+msgid "Tip"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1108 ../inc/theme-options.php:1132
+msgid "You can re-order your slogans by dragging the arrow icons."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1118 ../inc/theme-options.php:1142
+msgid "Slogan 05"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1119 ../inc/theme-options.php:1143
+msgid "Slogan 06"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1120 ../inc/theme-options.php:1144
+msgid "Slogan 07"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1121 ../inc/theme-options.php:1145
+msgid "Slogan 08"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1122 ../inc/theme-options.php:1146
+msgid "Slogan 09"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1123 ../inc/theme-options.php:1147
+msgid "Slogan 10"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1146 ../inc/theme-options.php:1170
+msgid "Entrance Animation"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1147 ../inc/theme-options.php:1171
+msgid "Choose an animation for when the letters enter the screen."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1150 ../inc/theme-options-legacy.php:1163
+#: ../inc/theme-options.php:1174 ../inc/theme-options.php:1187
+msgid "Select an animation"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1159 ../inc/theme-options.php:1183
+msgid "Exit Animation"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1160 ../inc/theme-options.php:1184
+msgid "Choose an animation for when the letters leave the screen."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1172 ../inc/theme-options.php:1196
+msgid "Display Time"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1173 ../inc/theme-options.php:1197
+msgid ""
+"The amount of time a slogan remains on the screen before it is replaced by "
+"the next one."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1174 ../inc/theme-options-legacy.php:1189
+#: ../inc/theme-options-legacy.php:1279 ../inc/theme-options-legacy.php:1294
+#: ../inc/theme-options.php:1198 ../inc/theme-options.php:1213
+#: ../inc/theme-options.php:1303 ../inc/theme-options.php:1318
+msgid "This value is in milliseconds - e.g. 1000 = 1 second"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1187 ../inc/theme-options.php:1211
+msgid "Delay"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1188 ../inc/theme-options.php:1212
+msgid "The amount of time it takes between animating each letter."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1202 ../inc/theme-options.php:1226
+msgid "Loop Slogans"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1203 ../inc/theme-options.php:1227
+msgid ""
+"This option will make the slogan rotator loop back to the first slogan, "
+"otherwise it will stop at the last one."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1215 ../inc/theme-options.php:1239
+msgid "Sync Animations"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1216 ../inc/theme-options.php:1240
+msgid "This option will make all the letters animate at the same time."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1228 ../inc/theme-options.php:1252
+msgid "Shuffle Animations"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1229 ../inc/theme-options.php:1253
+msgid "This option will make all the letters animate in a random order."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1230 ../inc/theme-options.php:1254
+msgid "Disabled if \"Sync\" is switched on."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1250 ../inc/theme-options.php:1274
+msgid "Background Slider"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1251 ../inc/theme-options.php:1275
+msgid ""
+"This section allows you to configure your background slider settings on the "
+"homepage."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1260 ../inc/theme-options.php:1284
+msgid "Slide Effects"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1261 ../inc/theme-options.php:1285
+msgid "Choose an effect to use for the transition of each slide."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1266 ../inc/theme-options.php:1290
+msgid "Fade"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1267 ../inc/theme-options.php:1291
+msgid "Scroll"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1277 ../inc/theme-options.php:1301
+msgid "Transition Speed"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1278 ../inc/theme-options.php:1302
+msgid "The time it takes for the transition animation to complete."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1292 ../inc/theme-options.php:1316
+msgid "Delay (Timeout)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1293 ../inc/theme-options.php:1317
+msgid ""
+"The time each slide remains on screen before transitioning to the next slide."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1304 ../inc/theme-options.php:1328
+msgid "Setting this value to zero will disable auto-sliding."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1313 ../inc/theme-options.php:1337
+msgid "Enable Slider Controls"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1314 ../inc/theme-options.php:1338
+msgid ""
+"This option will enable the user to use the \"previous\" and \"next\" "
+"controls for the slider."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1326 ../inc/theme-options.php:1350
+msgid "Slider Images"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1327 ../inc/theme-options.php:1351
+msgid ""
+"Use the WordPress media manager to add, delete and re-order your images for "
+"the slider."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1328 ../inc/theme-options.php:1352
+msgid "Recommended image size is 1920 x 1000 pixels."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1345 ../inc/theme-options.php:1369
+msgid "Social Icons"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1346 ../inc/theme-options.php:1370
+msgid ""
+"Configure your social icons and URLs here. A maximum of six icons are "
+"allowed to be displayed. This theme uses the Elusive Icon set, which is a "
+"free set of font icons. You can learn more about this <a href=\"https://"
+"press.codes/downloads/elusive-icons-webfont/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1354 ../inc/theme-options.php:1378
+msgid "Link Target"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1355 ../inc/theme-options.php:1379
+msgid "This option will open the links in a new window."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1367 ../inc/theme-options.php:1391
+msgid "Icon 01 - Icon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1368 ../inc/theme-options-legacy.php:1406
+#: ../inc/theme-options-legacy.php:1444 ../inc/theme-options-legacy.php:1482
+#: ../inc/theme-options-legacy.php:1520 ../inc/theme-options-legacy.php:1558
+#: ../inc/theme-options.php:1392 ../inc/theme-options.php:1430
+#: ../inc/theme-options.php:1468 ../inc/theme-options.php:1506
+#: ../inc/theme-options.php:1544 ../inc/theme-options.php:1582
+msgid "Select an Icon from the list."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1379 ../inc/theme-options.php:1403
+msgid "Icon 01 - Link"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1380 ../inc/theme-options-legacy.php:1418
+#: ../inc/theme-options-legacy.php:1456 ../inc/theme-options-legacy.php:1494
+#: ../inc/theme-options-legacy.php:1532 ../inc/theme-options-legacy.php:1570
+#: ../inc/theme-options.php:1404 ../inc/theme-options.php:1442
+#: ../inc/theme-options.php:1480 ../inc/theme-options.php:1518
+#: ../inc/theme-options.php:1556 ../inc/theme-options.php:1594
+msgid "Enter a URL for this icon."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1381 ../inc/theme-options-legacy.php:1419
+#: ../inc/theme-options-legacy.php:1457 ../inc/theme-options-legacy.php:1495
+#: ../inc/theme-options-legacy.php:1533 ../inc/theme-options-legacy.php:1571
+#: ../inc/theme-options.php:1405 ../inc/theme-options.php:1443
+#: ../inc/theme-options.php:1481 ../inc/theme-options.php:1519
+#: ../inc/theme-options.php:1557 ../inc/theme-options.php:1595
+msgid "Must be a valid URL!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1392 ../inc/theme-options.php:1416
+msgid "Icon 01 - Tooltip Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1393 ../inc/theme-options-legacy.php:1431
+#: ../inc/theme-options-legacy.php:1469 ../inc/theme-options-legacy.php:1507
+#: ../inc/theme-options-legacy.php:1545 ../inc/theme-options-legacy.php:1583
+#: ../inc/theme-options.php:1417 ../inc/theme-options.php:1455
+#: ../inc/theme-options.php:1493 ../inc/theme-options.php:1531
+#: ../inc/theme-options.php:1569 ../inc/theme-options.php:1607
+msgid "Text to be displayed when the user hovers over it."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1394 ../inc/theme-options-legacy.php:1432
+#: ../inc/theme-options-legacy.php:1470 ../inc/theme-options-legacy.php:1508
+#: ../inc/theme-options-legacy.php:1546 ../inc/theme-options-legacy.php:1584
+#: ../inc/theme-options.php:1418 ../inc/theme-options.php:1456
+#: ../inc/theme-options.php:1494 ../inc/theme-options.php:1532
+#: ../inc/theme-options.php:1570 ../inc/theme-options.php:1608
+msgid "No HTML allowed here!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1405 ../inc/theme-options.php:1429
+msgid "Icon 02 - Icon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1417 ../inc/theme-options.php:1441
+msgid "Icon 02 - Link"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1430 ../inc/theme-options.php:1454
+msgid "Icon 02 - Tooltip Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1443 ../inc/theme-options.php:1467
+msgid "Icon 03 - Icon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1455 ../inc/theme-options.php:1479
+msgid "Icon 03 - Link"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1468 ../inc/theme-options.php:1492
+msgid "Icon 03 - Tooltip Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1481 ../inc/theme-options.php:1505
+msgid "Icon 04 - Icon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1493 ../inc/theme-options.php:1517
+msgid "Icon 04 - Link"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1506 ../inc/theme-options.php:1530
+msgid "Icon 04 - Tooltip Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1519 ../inc/theme-options.php:1543
+msgid "Icon 05 - Icon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1531 ../inc/theme-options.php:1555
+msgid "Icon 05 - Link"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1544 ../inc/theme-options.php:1568
+msgid "Icon 05 - Tooltip Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1557 ../inc/theme-options.php:1581
+msgid "Icon 06 - Icon"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1569 ../inc/theme-options.php:1593
+msgid "Icon 06 - Link"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1582 ../inc/theme-options.php:1606
+msgid "Icon 06 - Tooltip Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1606 ../inc/theme-options.php:1637
+msgid "Section - About Us"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1607 ../inc/theme-options.php:1638
+msgid ""
+"This section is ideal for displaying a little info about your restaurant or "
+"cafe."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1615 ../inc/theme-options-legacy.php:1784
+#: ../inc/theme-options-legacy.php:2120 ../inc/theme-options-legacy.php:2366
+#: ../inc/theme-options-legacy.php:2503 ../inc/theme-options-legacy.php:2640
+#: ../inc/theme-options-legacy.php:2777 ../inc/theme-options-legacy.php:2913
+#: ../inc/theme-options-legacy.php:3496 ../inc/theme-options-legacy.php:3613
+#: ../inc/theme-options-legacy.php:3791 ../inc/theme-options.php:1646
+#: ../inc/theme-options.php:1815 ../inc/theme-options.php:2149
+#: ../inc/theme-options.php:2394 ../inc/theme-options.php:2548
+#: ../inc/theme-options.php:2702 ../inc/theme-options.php:2856
+#: ../inc/theme-options.php:3009 ../inc/theme-options.php:3591
+#: ../inc/theme-options.php:3707 ../inc/theme-options.php:3883
+msgid "Section Padding"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1616 ../inc/theme-options-legacy.php:1785
+#: ../inc/theme-options-legacy.php:2121 ../inc/theme-options-legacy.php:2367
+#: ../inc/theme-options-legacy.php:2504 ../inc/theme-options-legacy.php:2641
+#: ../inc/theme-options-legacy.php:2778 ../inc/theme-options-legacy.php:2914
+#: ../inc/theme-options-legacy.php:3497 ../inc/theme-options-legacy.php:3614
+#: ../inc/theme-options-legacy.php:3792 ../inc/theme-options.php:1647
+#: ../inc/theme-options.php:1816 ../inc/theme-options.php:2150
+#: ../inc/theme-options.php:2395 ../inc/theme-options.php:2549
+#: ../inc/theme-options.php:2703 ../inc/theme-options.php:2857
+#: ../inc/theme-options.php:3010 ../inc/theme-options.php:3592
+#: ../inc/theme-options.php:3708 ../inc/theme-options.php:3884
+msgid ""
+"Create space (padding) at the top and bottom of this section by adjusting "
+"these values."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1636 ../inc/theme-options-legacy.php:2142
+#: ../inc/theme-options-legacy.php:2935 ../inc/theme-options-legacy.php:3518
+#: ../inc/theme-options-legacy.php:3635 ../inc/theme-options-legacy.php:3813
+#: ../inc/theme-options.php:1667 ../inc/theme-options.php:2170
+#: ../inc/theme-options.php:3030 ../inc/theme-options.php:3612
+#: ../inc/theme-options.php:3728 ../inc/theme-options.php:3904
+msgid "Section Heading Title"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1637 ../inc/theme-options-legacy.php:2143
+#: ../inc/theme-options-legacy.php:2936 ../inc/theme-options-legacy.php:3519
+#: ../inc/theme-options-legacy.php:3636 ../inc/theme-options-legacy.php:3814
+#: ../inc/theme-options.php:1668 ../inc/theme-options.php:2171
+#: ../inc/theme-options.php:3031 ../inc/theme-options.php:3613
+#: ../inc/theme-options.php:3729 ../inc/theme-options.php:3905
+msgid "Enter a name for this section's title."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1645 ../inc/theme-options-legacy.php:1663
+#: ../inc/theme-options-legacy.php:2151 ../inc/theme-options-legacy.php:2169
+#: ../inc/theme-options-legacy.php:2944 ../inc/theme-options-legacy.php:2962
+#: ../inc/theme-options-legacy.php:3527 ../inc/theme-options-legacy.php:3545
+#: ../inc/theme-options-legacy.php:3644 ../inc/theme-options-legacy.php:3662
+#: ../inc/theme-options-legacy.php:3822 ../inc/theme-options-legacy.php:3840
+#: ../inc/theme-options.php:1676 ../inc/theme-options.php:1694
+#: ../inc/theme-options.php:2179 ../inc/theme-options.php:2197
+#: ../inc/theme-options.php:3039 ../inc/theme-options.php:3057
+#: ../inc/theme-options.php:3621 ../inc/theme-options.php:3639
+#: ../inc/theme-options.php:3737 ../inc/theme-options.php:3755
+#: ../inc/theme-options.php:3913 ../inc/theme-options.php:3931
+msgid "You can leave this field empty if you don't require it!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1654 ../inc/theme-options-legacy.php:2160
+#: ../inc/theme-options-legacy.php:2953 ../inc/theme-options-legacy.php:3536
+#: ../inc/theme-options-legacy.php:3653 ../inc/theme-options-legacy.php:3831
+#: ../inc/theme-options.php:1685 ../inc/theme-options.php:2188
+#: ../inc/theme-options.php:3048 ../inc/theme-options.php:3630
+#: ../inc/theme-options.php:3746 ../inc/theme-options.php:3922
+msgid "Section Heading Subtitle"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1655 ../inc/theme-options-legacy.php:2161
+#: ../inc/theme-options-legacy.php:2954 ../inc/theme-options-legacy.php:3537
+#: ../inc/theme-options-legacy.php:3654 ../inc/theme-options-legacy.php:3832
+#: ../inc/theme-options.php:1686 ../inc/theme-options.php:2189
+#: ../inc/theme-options.php:3049 ../inc/theme-options.php:3631
+#: ../inc/theme-options.php:3747 ../inc/theme-options.php:3923
+msgid ""
+"Enter a name for this section's subtitle. Appears directly underneath the "
+"main title."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1672 ../inc/theme-options-legacy.php:1870
+#: ../inc/theme-options-legacy.php:2178 ../inc/theme-options-legacy.php:2422
+#: ../inc/theme-options-legacy.php:2559 ../inc/theme-options-legacy.php:2696
+#: ../inc/theme-options-legacy.php:2832 ../inc/theme-options-legacy.php:2971
+#: ../inc/theme-options-legacy.php:3554 ../inc/theme-options-legacy.php:3705
+#: ../inc/theme-options-legacy.php:3849 ../inc/theme-options.php:1703
+#: ../inc/theme-options.php:1899 ../inc/theme-options.php:2206
+#: ../inc/theme-options.php:2448 ../inc/theme-options.php:2602
+#: ../inc/theme-options.php:2756 ../inc/theme-options.php:2909
+#: ../inc/theme-options.php:3066 ../inc/theme-options.php:3648
+#: ../inc/theme-options.php:3797 ../inc/theme-options.php:3940
+msgid "This Section's Slug Name"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1673 ../inc/theme-options-legacy.php:1871
+#: ../inc/theme-options-legacy.php:2179 ../inc/theme-options-legacy.php:2423
+#: ../inc/theme-options-legacy.php:2560 ../inc/theme-options-legacy.php:2697
+#: ../inc/theme-options-legacy.php:2833 ../inc/theme-options-legacy.php:2972
+#: ../inc/theme-options-legacy.php:3555 ../inc/theme-options-legacy.php:3706
+#: ../inc/theme-options-legacy.php:3850 ../inc/theme-options.php:1704
+#: ../inc/theme-options.php:1900 ../inc/theme-options.php:2207
+#: ../inc/theme-options.php:2449 ../inc/theme-options.php:2603
+#: ../inc/theme-options.php:2757 ../inc/theme-options.php:2910
+#: ../inc/theme-options.php:3067 ../inc/theme-options.php:3649
+#: ../inc/theme-options.php:3798 ../inc/theme-options.php:3941
+msgid ""
+"This is used as the section's ID. Can be used in WordPress Custom Menus for "
+"single page navigation."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1687 ../inc/theme-options-legacy.php:1885
+#: ../inc/theme-options-legacy.php:2193 ../inc/theme-options-legacy.php:2437
+#: ../inc/theme-options-legacy.php:2574 ../inc/theme-options-legacy.php:2711
+#: ../inc/theme-options-legacy.php:2847 ../inc/theme-options-legacy.php:2986
+#: ../inc/theme-options-legacy.php:3569 ../inc/theme-options-legacy.php:3720
+#: ../inc/theme-options-legacy.php:3864
+msgid "Use lowercase letters and underscores!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1703 ../inc/theme-options.php:1734
+msgid "Main Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1704 ../inc/theme-options.php:1735
+msgid "Upload an image to use for this section's main image."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1705 ../inc/theme-options.php:1736
+msgid ""
+"For best results, use a square image. The circular effect will be added "
+"automatically!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1719 ../inc/theme-options.php:1750
+msgid "Inset Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1720 ../inc/theme-options.php:1751
+msgid ""
+"Upload an image to use for this section's inset image. This will appear "
+"within the main image at the top left."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1721 ../inc/theme-options.php:1752
+msgid ""
+"For best results, use a square image that is smaller than the main image. "
+"The circular effect will be added automatically!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1735 ../inc/theme-options.php:1766
+msgid "Image Styling"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1736 ../inc/theme-options.php:1767
+msgid "Use this option to enable or remove the circular effect for the images."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1748 ../inc/theme-options-legacy.php:3880
+#: ../inc/theme-options.php:1779 ../inc/theme-options.php:3971
+msgid "Main Content"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1749 ../inc/theme-options.php:1780
+msgid ""
+"Content for this section. Use the WordPress TinyMCE editor to add your "
+"content."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1775 ../inc/theme-options.php:1806
+msgid "Section - Testimonials"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1776 ../inc/theme-options.php:1807
+msgid ""
+"You can use this section to show visitors what some of your previous "
+"customers are saying about your restaurant or food. You can have up to six "
+"testimonials."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1806 ../inc/theme-options-legacy.php:2388
+#: ../inc/theme-options-legacy.php:2525 ../inc/theme-options-legacy.php:2662
+#: ../inc/theme-options-legacy.php:2799 ../inc/theme-options-legacy.php:3671
+#: ../inc/theme-options.php:1836 ../inc/theme-options.php:2415
+#: ../inc/theme-options.php:2569 ../inc/theme-options.php:2723
+#: ../inc/theme-options.php:2877 ../inc/theme-options.php:3764
+msgid "Section Background"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1807 ../inc/theme-options-legacy.php:2389
+#: ../inc/theme-options-legacy.php:2526 ../inc/theme-options-legacy.php:2663
+#: ../inc/theme-options-legacy.php:2800 ../inc/theme-options-legacy.php:3672
+#: ../inc/theme-options.php:1837 ../inc/theme-options.php:2416
+#: ../inc/theme-options.php:2570 ../inc/theme-options.php:2724
+#: ../inc/theme-options.php:2878 ../inc/theme-options.php:3765
+msgid ""
+"You can upload an image to use as this section's background, or if you "
+"prefer to keep things simple, you can have a background colour. You can even "
+"have both if you want to be creative!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1827 ../inc/theme-options-legacy.php:2409
+#: ../inc/theme-options-legacy.php:2546 ../inc/theme-options-legacy.php:2683
+#: ../inc/theme-options-legacy.php:2820 ../inc/theme-options-legacy.php:3692
+#: ../inc/theme-options.php:1856 ../inc/theme-options.php:2435
+#: ../inc/theme-options.php:2589 ../inc/theme-options.php:2743
+#: ../inc/theme-options.php:2897 ../inc/theme-options.php:3784
+msgid "Parallax Effect"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1828 ../inc/theme-options-legacy.php:2410
+#: ../inc/theme-options-legacy.php:2547 ../inc/theme-options-legacy.php:2684
+#: ../inc/theme-options-legacy.php:2821 ../inc/theme-options-legacy.php:3693
+#: ../inc/theme-options.php:1857 ../inc/theme-options.php:2436
+#: ../inc/theme-options.php:2590 ../inc/theme-options.php:2744
+#: ../inc/theme-options.php:2898 ../inc/theme-options.php:3785
+msgid ""
+"Use this option to enable a parallax scrolling effect to this section's "
+"background image. For this effect to work well, it is recommended that you "
+"have the background-attachment set to fixed in the above option."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1840 ../inc/theme-options.php:1869
+msgid "Column Layout"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1841 ../inc/theme-options.php:1870
+msgid "Choose a column layout for this section."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1846 ../inc/theme-options.php:1875
+msgid "One Column"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1847 ../inc/theme-options-legacy.php:2337
+#: ../inc/theme-options.php:1876 ../inc/theme-options.php:2365
+msgid "Two Columns"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1857 ../inc/theme-options.php:1886
+msgid "Section Heading"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1858 ../inc/theme-options.php:1887
+msgid "Enter a title for this section's heading."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1859 ../inc/theme-options.php:1888
+msgid "Use <code>&lt;span&gt;</code> tags to use the theme's accent colour."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1901 ../inc/theme-options.php:1930
+msgid "Testimonial 01 - Quote"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1902 ../inc/theme-options-legacy.php:1954
+#: ../inc/theme-options-legacy.php:2006 ../inc/theme-options-legacy.php:2058
+#: ../inc/theme-options.php:1931 ../inc/theme-options.php:1983
+#: ../inc/theme-options.php:2035 ../inc/theme-options.php:2087
+msgid "Enter the text to be used as the quote."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1903 ../inc/theme-options-legacy.php:1955
+#: ../inc/theme-options-legacy.php:2007 ../inc/theme-options-legacy.php:2059
+#: ../inc/theme-options.php:1932 ../inc/theme-options.php:1984
+#: ../inc/theme-options.php:2036 ../inc/theme-options.php:2088
+msgid "You can use <code>&lt;br /&gt;</code> tags here for line breaks."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1915 ../inc/theme-options.php:1944
+msgid "Testimonial 01 - Cite Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1916 ../inc/theme-options-legacy.php:1968
+#: ../inc/theme-options-legacy.php:2020 ../inc/theme-options-legacy.php:2072
+#: ../inc/theme-options.php:1945 ../inc/theme-options.php:1997
+#: ../inc/theme-options.php:2049 ../inc/theme-options.php:2101
+msgid "Enter some cite text for this testimonial."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1917 ../inc/theme-options-legacy.php:1969
+#: ../inc/theme-options-legacy.php:2021 ../inc/theme-options-legacy.php:2073
+#: ../inc/theme-options.php:1946 ../inc/theme-options.php:1998
+#: ../inc/theme-options.php:2050 ../inc/theme-options.php:2102
+msgid ""
+"Links are allowed here using the <code>&lt;a&gt;</code> tag.<br /><br /"
+"><strong>Important note</strong> - Use single quotes when entering link "
+"attributes. Double quotes will result in the text being stripped."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1929 ../inc/theme-options.php:1958
+msgid "Testimonial 01 - Thumbnail Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1930 ../inc/theme-options-legacy.php:1982
+#: ../inc/theme-options-legacy.php:2034 ../inc/theme-options-legacy.php:2086
+#: ../inc/theme-options.php:1959 ../inc/theme-options.php:2011
+#: ../inc/theme-options.php:2063 ../inc/theme-options.php:2115
+msgid "You can upload a small thumbnail image of the author (Optional)."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1931 ../inc/theme-options-legacy.php:1983
+#: ../inc/theme-options-legacy.php:2035 ../inc/theme-options-legacy.php:2087
+#: ../inc/theme-options.php:1960 ../inc/theme-options.php:2012
+#: ../inc/theme-options.php:2064 ../inc/theme-options.php:2116
+msgid ""
+"For best reults, use a small square image approximately 80 x 80 pixels in "
+"size."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1953 ../inc/theme-options.php:1982
+msgid "Testimonial 02 - Quote"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1967 ../inc/theme-options.php:1996
+msgid "Testimonial 02 - Cite Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:1981 ../inc/theme-options.php:2010
+msgid "Testimonial 02 - Thumbnail Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2005 ../inc/theme-options.php:2034
+msgid "Testimonial 03 - Quote"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2019 ../inc/theme-options.php:2048
+msgid "Testimonial 03 - Cite Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2033 ../inc/theme-options.php:2062
+msgid "Testimonial 03 - Thumbnail Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2057 ../inc/theme-options.php:2086
+msgid "Testimonial 04 - Quote"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2071 ../inc/theme-options.php:2100
+msgid "Testimonial 04 - Cite Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2085 ../inc/theme-options.php:2114
+msgid "Testimonial 04 - Thumbnail Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2111 ../inc/theme-options.php:2140
+msgid "Section - Food Menu"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2112 ../inc/theme-options.php:2141
+msgid ""
+"Populate this section with your menus. Select food menus from the dropdown "
+"lists. You can add recipes to a menu by editing the recipe and selecting a "
+"<strong>menu</strong> to add it to."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2209 ../inc/theme-options.php:2237
+msgid "Order Recipes by..."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2210 ../inc/theme-options.php:2238
+msgid ""
+"WordPress offers different ways you can sort your posts, please select one "
+"from the dropdown menu."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2211 ../inc/theme-options.php:2239
+msgid ""
+"Note: The <strong>Menu Order</strong> attribute can be changed when editing "
+"the post."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2221 ../inc/theme-options.php:2249
+msgid "Order Type"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2222 ../inc/theme-options.php:2250
+msgid ""
+"With an option selected above, you can either display them in Ascending or "
+"Descending order."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2227 ../inc/theme-options.php:2255
+msgid "Descending Order"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2228 ../inc/theme-options.php:2256
+msgid "Ascending Order"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2245 ../inc/theme-options.php:2273
+msgid "First Column"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2246 ../inc/theme-options.php:2274
+msgid ""
+"Populate the first column with menus from the dropdown list. This will show "
+"on all layouts."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2247 ../inc/theme-options-legacy.php:2273
+#: ../inc/theme-options-legacy.php:2299 ../inc/theme-options.php:2275
+#: ../inc/theme-options.php:2301 ../inc/theme-options.php:2327
+msgid "If a menu is empty, it will not be shown in the list."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2251 ../inc/theme-options-legacy.php:2277
+#: ../inc/theme-options-legacy.php:2303 ../inc/theme-options.php:2279
+#: ../inc/theme-options.php:2305 ../inc/theme-options.php:2331
+msgid "Select a menu"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2262 ../inc/theme-options-legacy.php:2288
+#: ../inc/theme-options-legacy.php:2314 ../inc/theme-options.php:2290
+#: ../inc/theme-options.php:2316 ../inc/theme-options.php:2342
+msgid "You can re-order your menu items by dragging them."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2271 ../inc/theme-options.php:2299
+msgid "Second Column"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2272 ../inc/theme-options.php:2300
+msgid ""
+"Populate the second column with menus from the dropdown list. This will NOT "
+"show if the one column layout is selected, use the first column instead :)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2297 ../inc/theme-options.php:2325
+msgid "Third Column"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2298 ../inc/theme-options.php:2326
+msgid ""
+"Populate the Third column with menus from the dropdown list. This will NOT "
+"show if the one or two column layout is selected, use the first and second "
+"columns instead :)"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2330 ../inc/theme-options.php:2358
+msgid "Layout"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2331 ../inc/theme-options.php:2359
+msgid "Choose a layout for this section."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2336 ../inc/theme-options.php:2364
+msgid "Single Column"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2338 ../inc/theme-options.php:2366
+msgid "Three Columns"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2357 ../inc/theme-options.php:2385
+msgid "Section - Slogan 01"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2358 ../inc/theme-options-legacy.php:2495
+#: ../inc/theme-options-legacy.php:2632 ../inc/theme-options-legacy.php:2769
+#: ../inc/theme-options.php:2386 ../inc/theme-options.php:2540
+#: ../inc/theme-options.php:2694 ../inc/theme-options.php:2848
+msgid ""
+"Use this section as a way to break up your content. Think of it as a "
+"divider. Use it as an attention-grabber or a call-to-action."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2453 ../inc/theme-options-legacy.php:2590
+#: ../inc/theme-options-legacy.php:2727 ../inc/theme-options-legacy.php:2863
+#: ../inc/theme-options.php:2479 ../inc/theme-options.php:2633
+#: ../inc/theme-options.php:2787 ../inc/theme-options.php:2940
+msgid "Slogan Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2454 ../inc/theme-options-legacy.php:2591
+#: ../inc/theme-options-legacy.php:2728 ../inc/theme-options-legacy.php:2864
+#: ../inc/theme-options.php:2480 ../inc/theme-options.php:2634
+#: ../inc/theme-options.php:2788 ../inc/theme-options.php:2941
+msgid "Enter some text to be displayed here. Make it something catchy!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2455 ../inc/theme-options-legacy.php:2592
+#: ../inc/theme-options-legacy.php:2729 ../inc/theme-options-legacy.php:2865
+#: ../inc/theme-options.php:2481 ../inc/theme-options.php:2635
+#: ../inc/theme-options.php:2789 ../inc/theme-options.php:2942
+msgid ""
+"You can use <code>&lt;br /&gt;</code>, <code>&lt;em&gt;</code> and <code>&lt;"
+"span&gt;</code> tags here."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2473 ../inc/theme-options-legacy.php:2610
+#: ../inc/theme-options-legacy.php:2747 ../inc/theme-options-legacy.php:2883
+#: ../inc/theme-options.php:2499 ../inc/theme-options.php:2653
+#: ../inc/theme-options.php:2807 ../inc/theme-options.php:2960
+msgid "Slogan Link"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2474 ../inc/theme-options-legacy.php:2611
+#: ../inc/theme-options-legacy.php:2748 ../inc/theme-options-legacy.php:2884
+#: ../inc/theme-options.php:2500 ../inc/theme-options.php:2654
+#: ../inc/theme-options.php:2808 ../inc/theme-options.php:2961
+msgid ""
+"The entire slogan can be wrapped in a link and be used as a call-to-action. "
+"If you don't require this, then leave this field empty."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2475 ../inc/theme-options-legacy.php:2612
+#: ../inc/theme-options-legacy.php:2749 ../inc/theme-options-legacy.php:2885
+#: ../inc/theme-options.php:2501 ../inc/theme-options.php:2655
+#: ../inc/theme-options.php:2809 ../inc/theme-options.php:2962
+msgid "Only valid URLs are allowed!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2494 ../inc/theme-options.php:2539
+msgid "Section - Slogan 02"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2631 ../inc/theme-options.php:2693
+msgid "Section - Slogan 03"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2768 ../inc/theme-options.php:2847
+msgid "Section - Slogan 04"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2904 ../inc/theme-options.php:3000
+msgid "Section - Meet the Staff"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:2905 ../inc/theme-options.php:3001
+msgid ""
+"Use this section to display information about the key players in your "
+"business. You can upload photos, add a short bio, and even configure social "
+"media icons for up to three people."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3002 ../inc/theme-options.php:3097
+msgid "Staff Member 01 - Name"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3003 ../inc/theme-options-legacy.php:3167
+#: ../inc/theme-options-legacy.php:3328 ../inc/theme-options.php:3098
+#: ../inc/theme-options.php:3262 ../inc/theme-options.php:3423
+msgid "Enter this staff member's name."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3014 ../inc/theme-options.php:3109
+msgid "Staff Member 01 - Role"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3015 ../inc/theme-options-legacy.php:3179
+#: ../inc/theme-options-legacy.php:3340 ../inc/theme-options.php:3110
+#: ../inc/theme-options.php:3274 ../inc/theme-options.php:3435
+msgid "Enter this staff member's job title (or equivalent)."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3026 ../inc/theme-options.php:3121
+msgid "Staff Member 01 - Thumbnail Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3027 ../inc/theme-options-legacy.php:3191
+#: ../inc/theme-options-legacy.php:3352 ../inc/theme-options.php:3122
+#: ../inc/theme-options.php:3286 ../inc/theme-options.php:3447
+msgid "You can upload a medium sized thumbnail image for this staff member."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3028 ../inc/theme-options-legacy.php:3192
+#: ../inc/theme-options-legacy.php:3353 ../inc/theme-options.php:3123
+#: ../inc/theme-options.php:3287 ../inc/theme-options.php:3448
+msgid ""
+"For best results, use a square image approximately 280 x 280 pixels in size."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3042 ../inc/theme-options.php:3137
+msgid "Staff Member 01 - Description"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3043 ../inc/theme-options-legacy.php:3207
+#: ../inc/theme-options-legacy.php:3368 ../inc/theme-options.php:3138
+#: ../inc/theme-options.php:3302 ../inc/theme-options.php:3463
+msgid "Write a small paragraph about this staff member."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3044 ../inc/theme-options-legacy.php:3208
+#: ../inc/theme-options-legacy.php:3369 ../inc/theme-options.php:3139
+#: ../inc/theme-options.php:3303 ../inc/theme-options.php:3464
+msgid "Some HTML is allowed in this field!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3069 ../inc/theme-options.php:3164
+msgid "Staff Member 01 - Icon glyphs"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3070 ../inc/theme-options-legacy.php:3234
+#: ../inc/theme-options-legacy.php:3395 ../inc/theme-options.php:3165
+#: ../inc/theme-options.php:3329 ../inc/theme-options.php:3490
+msgid "Choose the glyphs to use for this staff member's social icons."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3099 ../inc/theme-options.php:3194
+msgid "Staff Member 01 - Icon URLs"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3100 ../inc/theme-options-legacy.php:3263
+#: ../inc/theme-options-legacy.php:3423 ../inc/theme-options.php:3195
+#: ../inc/theme-options.php:3358 ../inc/theme-options.php:3518
+msgid "Enter the corresponding URLs for the above icons."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3129 ../inc/theme-options.php:3224
+msgid "Staff Member 01 - Icon Tooltips"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3130 ../inc/theme-options-legacy.php:3292
+#: ../inc/theme-options-legacy.php:3451 ../inc/theme-options.php:3225
+#: ../inc/theme-options.php:3387 ../inc/theme-options.php:3546
+msgid "Enter some optional tooltip texts for the icons."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3166 ../inc/theme-options.php:3261
+msgid "Staff Member 02 - Name"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3178 ../inc/theme-options.php:3273
+msgid "Staff Member 02 - Role"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3190 ../inc/theme-options.php:3285
+msgid "Staff Member 02 - Thumbnail Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3206 ../inc/theme-options.php:3301
+msgid "Staff Member 02 - Description"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3233 ../inc/theme-options.php:3328
+msgid "Staff Member 02 - Icon glyphs"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3262 ../inc/theme-options.php:3357
+msgid "Staff Member 02 - Icon URLs"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3291 ../inc/theme-options-legacy.php:3450
+#: ../inc/theme-options.php:3386 ../inc/theme-options.php:3545
+msgid "Staff Member 02 - Icon Tooltips"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3327 ../inc/theme-options.php:3422
+msgid "Staff Member 03 - Name"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3339 ../inc/theme-options.php:3434
+msgid "Staff Member 03 - Role"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3351 ../inc/theme-options.php:3446
+msgid "Staff Member 03 - Thumbnail Image"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3367 ../inc/theme-options.php:3462
+msgid "Staff Member 03 - Description"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3394 ../inc/theme-options.php:3489
+msgid "Staff Member 03 - Icon glyphs"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3422 ../inc/theme-options.php:3517
+msgid "Staff Member 03 - Icon URLs"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3487 ../inc/theme-options.php:3582
+msgid "Section - Gallery"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3488 ../inc/theme-options.php:3583
+msgid ""
+"This is the part where you get to show off some cool images of your "
+"restaurant or cafe. You can use almost any size image you want, but if you "
+"want a similar effect seen in the demo site, the sizes used there are:<br /"
+"><br /><strong>560 x 460 pixles</strong><br /><strong>1160 x 460 pixels</"
+"strong> with the \"wide\" class added. View the docs for more info on this."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3585 ../inc/theme-options.php:3679
+msgid "Gallery Images"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3586 ../inc/theme-options.php:3680
+msgid ""
+"Use the WordPress media manager to add, delete and re-order your images for "
+"the gallery."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3604 ../inc/theme-options.php:3698
+msgid "Section - Blog"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3605 ../inc/theme-options.php:3699
+msgid "This section will display your latest blog posts in a grid layout."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3736 ../inc/theme-options.php:3828
+msgid "Number of Posts"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3737 ../inc/theme-options.php:3829
+msgid "Select the number of posts to show in this section."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3750 ../inc/theme-options.php:3842
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3751 ../inc/theme-options.php:3843
+msgid "Enter the text for the \"View Blog\" button."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3752 ../inc/theme-options.php:3844
+msgid "To remove this button, leave this field empty."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3762 ../inc/theme-options.php:3854
+msgid "Button URL"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3763 ../inc/theme-options.php:3855
+msgid ""
+"Select a page for the button to link to. Choose from a list of your current "
+"WordPress pages."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3782 ../inc/theme-options.php:3874
+msgid "Section - Reservations"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3783 ../inc/theme-options.php:3875
+msgid ""
+"This section is ideal for showing contact details or a contact form. If you "
+"need to use a reservation booking plugin, we recommend the Restaurant "
+"Reservations plugin as theme has been styled around it."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3881 ../inc/theme-options.php:3972
+msgid ""
+"Content for this section. Use the WordPress TinyMCE editor to add your "
+"content. If you are using a Restaurant Booking plugin, you can put the "
+"shortcode here."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3891 ../inc/theme-options.php:3982
+msgid ""
+"This is some example content. You can put anything you like. Why not use a "
+"shortcode for your reservation form plugin? If you'd like more information "
+"on how to do this, please see the documentation. You can access the docs "
+"through the theme options panel."
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3906 ../inc/theme-options.php:149
+msgid "Contact Me"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3907 ../inc/theme-options.php:150
+msgid ""
+"<p>If you have any problems or questions, there are two ways to do this. The "
+"first and easiest way is to leave a comment in the item's comment page over "
+"at Themeforest.net. The other way is to contact me directly by using the "
+"contact form found on my <a href=\"http://themeforest.net/user/"
+"SubatomicThemes\" target=\"_blank\">profile page</a>.</p>"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3923 ../inc/theme-options.php:37
+msgid "Hungry - Theme Options"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:3927 ../inc/theme-options-legacy.php:3928
+#: ../inc/theme-options.php:41 ../inc/theme-options.php:42
+msgid "Hungry Options"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:4004 ../inc/theme-options.php:122
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:4010
+#, php-format
+msgid ""
+"Welcome to the theme options panel for <strong>Hungry</strong>! If you are "
+"just getting started and are unsure of what to do, please check out the "
+"theme's <a href=\"%s\" target=\"_blank\">documentation</a>. Have fun!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:4014
+msgid ""
+"If you have any questions regarding this theme, please drop by the item's "
+"comments page over at Themeforest.net and leave us a comment! If you like "
+"the theme, don't forget to rate it!"
+msgstr ""
+
+#: ../inc/theme-options-legacy.php:4025
+msgid ""
+"The class named Hungry_Theme_Options has already been called. "
+"<strong>Developers, you need to prefix this class with your company name or "
+"you'll run into problems!</strong>"
+msgstr ""
+
+#: ../inc/theme-options.php:133
+#, php-format
+msgid ""
+"Welcome to the new and improved theme options panel for <strong>Hungry</"
+"strong>! Version 1.0.2 introduces a few new options and features. Learn more "
+"about this by checking out the theme's <a href=\"%s\" target=\"_blank"
+"\">documentation</a>. Enjoy!"
+msgstr ""
+
+#: ../inc/theme-options.php:137
+msgid ""
+"Thanks for creating your site with <strong>Hungry</strong> and "
+"<strong>WordPress</strong>. If you have any questions, please drop by the "
+"item's comments page over at Themeforest.net and leave us a comment! If you "
+"like the theme, don't forget to rate it!"
+msgstr ""
+
+#: ../inc/theme-options.php:161
+msgid ""
+"<p><strong>Tip:</strong> Fields marked with <strong>*</strong>, are "
+"currently displaying default values.</p>"
+msgstr ""
+
+#: ../inc/theme-options.php:771
+msgid "Header Size Transition"
+msgstr ""
+
+#: ../inc/theme-options.php:772
+msgid ""
+"By default, the main header will shrink when you scroll down. Use this "
+"option to disable this effect."
+msgstr ""
+
+#: ../inc/theme-options.php:1622 ../inc/theme-options.php:3992
+msgid "Divide"
+msgstr ""
+
+#: ../inc/theme-options.php:1718 ../inc/theme-options.php:1914
+#: ../inc/theme-options.php:2221 ../inc/theme-options.php:2463
+#: ../inc/theme-options.php:2617 ../inc/theme-options.php:2771
+#: ../inc/theme-options.php:2924 ../inc/theme-options.php:3081
+#: ../inc/theme-options.php:3663 ../inc/theme-options.php:3812
+#: ../inc/theme-options.php:3955
+msgid "Use lowercase letters and hyphens."
+msgstr ""
+
+#: ../inc/theme-options.php:2518 ../inc/theme-options.php:2672
+#: ../inc/theme-options.php:2826 ../inc/theme-options.php:2979
+msgid "Video Background"
+msgstr ""
+
+#: ../inc/theme-options.php:2519 ../inc/theme-options.php:2673
+#: ../inc/theme-options.php:2827 ../inc/theme-options.php:2980
+msgid ""
+"You can upload a video to be used as the background instead of an image. "
+"This option will override any images that have been set above."
+msgstr ""
+
+#: ../inc/theme-options.php:2520 ../inc/theme-options.php:2674
+#: ../inc/theme-options.php:2828 ../inc/theme-options.php:2981
+msgid ""
+"Upload a Video. Accepted formats are <code>.mp4</code>, <code>.webm</code> "
+"and <code>.ogv</code> files."
+msgstr ""
+
+#: ../inc/widgets.php:48
+msgid "Hungry - Contact Details"
+msgstr ""
+
+#: ../inc/widgets.php:51
+msgid "Use this widget to display contact details for you or your business."
+msgstr ""
+
+#: ../inc/widgets.php:147 ../inc/widgets.php:302 ../inc/widgets.php:468
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets.php:151
+msgid "Intro Text:"
+msgstr ""
+
+#: ../inc/widgets.php:155
+msgid "Telephone Number URL:"
+msgstr ""
+
+#: ../inc/widgets.php:159
+msgid "Telephone Number:"
+msgstr ""
+
+#: ../inc/widgets.php:163
+msgid "Email Address:"
+msgstr ""
+
+#: ../inc/widgets.php:167
+msgid "Email Text:"
+msgstr ""
+
+#: ../inc/widgets.php:171
+msgid "Address (br tags allowed):"
+msgstr ""
+
+#: ../inc/widgets.php:210
+msgid "Hungry - Opening Times"
+msgstr ""
+
+#: ../inc/widgets.php:213
+msgid ""
+"Use this widget to display the opening times of your business. Wrap your "
+"times in &lt;span&gt; tags."
+msgstr ""
+
+#: ../inc/widgets.php:306
+msgid "Intro Text (Optional):"
+msgstr ""
+
+#: ../inc/widgets.php:310
+msgid "Monday:"
+msgstr ""
+
+#: ../inc/widgets.php:314
+msgid "Tuesday:"
+msgstr ""
+
+#: ../inc/widgets.php:318
+msgid "Wednesday:"
+msgstr ""
+
+#: ../inc/widgets.php:322
+msgid "Thursday:"
+msgstr ""
+
+#: ../inc/widgets.php:326
+msgid "Friday:"
+msgstr ""
+
+#: ../inc/widgets.php:330
+msgid "Saturday:"
+msgstr ""
+
+#: ../inc/widgets.php:334
+msgid "Sunday:"
+msgstr ""
+
+#: ../inc/widgets.php:354
+msgid "Hungry - Latest Recipes"
+msgstr ""
+
+#: ../inc/widgets.php:357
+msgid "Use this widget to display a list of your latest recipes!"
+msgstr ""
+
+#: ../inc/widgets.php:472
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../inc/widgets.php:477
+msgid "Enable Links?"
+msgstr ""
+
+#: ../intro.php:47
+#, php-format
+msgid "Search results for: %s"
+msgstr ""

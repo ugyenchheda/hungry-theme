@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<title>Hungry - WordPress Theme Documentation</title>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css" media="all">
+	<link rel="stylesheet" href="css/font-awesome.min.css" media="all">
+	
+</head>
+<body>
+
+<!-- START Logo -->
+<div id="logo">
+	<a href="http://themeforest.net/user/SubatomicThemes">
+		<img src="images/logo.png" alt="Subatomic Themes Logo" />
+	</a>
+</div>
+<!-- END Logo -->
+
+<!-- START Page Header -->
+<header>
+
+	<!-- START Title -->
+	<h1>Hungry</h1>
+	<h2>A Simple One-Page, WordPress Restaurant Theme</h2>
+	<!-- END title -->
+	
+	<!-- START Theme Info -->
+	<div id="theme-meta">
+		<span>Updated: <strong>April 29th, 2015</strong></span>
+		<span>By: <strong>Subatomic Themes</strong></span>
+		<span>Contact: <a href="http://themeforest.net/user/SubatomicThemes" target="_blank">My Profile Page</a></span>
+	</div>
+	<!-- END Theme Info -->
+	
+	<!-- START Intro -->
+	<div id="theme-intro">
+		<i class="fa fa-bullhorn"></i>
+		<p>If you need an elegant, clean, one-page layout for your new restaurant website, then you've
+		picked the right theme! This guide should cover everything you need to know, but if
+		you have any questions, I'll do my best to answer them. Send me a message via my
+		<a href="http://themeforest.net/user/SubatomicThemes" target="_blank">Profile Page</a> over at Themeforest.net. Thanks!</p>
+	</div>
+	<!-- END Intro -->
+	
+	<h6>Table of Contents</h6>
+	<ol id="toc">
+		<li><a href="#introduction">Introduction</a></li>
+		<li><a href="#install-wordpress">Installation - WordPress</a></li>
+		<li><a href="#install-theme">Installation - The Theme</a></li>
+		<li><a href="#install-plugins">Installation - The Plugins</a></li>
+		<li><a href="#child-theme">Using a Child Theme</a></li>
+		<li><a href="#import">Importing Demo Content</a></li>
+		<li><a href="#theme-options">Theme Options</a></li>
+		<li><a href="#custom-headers">Custom Headers</a></li>
+		<li><a href="#homepage-setup">Homepage Setup</a></li>
+		<li><a href="#home-layout">Homepage Layout</a></li>
+		<li><a href="#navigation">Navigation</a></li>
+		<li><a href="#adding-recipes">Adding Recipes</a></li>
+		<li><a href="#menus">Displaying Menus</a></li>
+		<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#custom-widgets">Custom Widgets</a></li>
+		<li><a href="#shortcodes">Shortcodes</a></li>
+		<li><a href="#reservation-form">Open Table Widget</a></li>
+		<li><a href="#translate">Translation</a></li>
+		<li><a href="#credits">Sources &amp; Credits</a></li>
+	</ol>
+</header>
+<!-- END Page Header -->
+
+<!-- START Main Content -->
+<section id="main" role="main">
+	
+	<!-- ################################################################## -->
+	<div id="introduction" class="section-title">
+		<div class="container">
+			<h1>01 - Introduction</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>Thanks a lot for purchasing this theme! If you already have a good amount of
+		WordPress knowledge and just want to dive straight in, then go ahead!
+		If you are new WordPress, then please take some time to
+		have a read through this file. It has a lot of useful information to
+		help get you started.</p>
+		<h5>Changelog</h5>
+<pre>
+
+V1.0.2
+
+ - Added: WPML config.xml files for Theme and Plugin.
+ - Added: Ability to add Video Backgrounds for Slogan Sections.
+ - Added: Ability to upload Header Images for sepearate pages/posts/recipes.
+ - Added: Ability to use custom slug names for each section.
+ - Added: Ability to disable the shrinking header animation.
+ - Added: Two more Slogan Sections.
+ - Updated: TGM Plugin Activation Class to 2.4.1 (XSS Issue)
+ - Updated: Redux Framework V3.5.4.3
+ - Updated: Elusive Icons.
+ - Improved: Menu Shortcode.
+ - Improved: Site Preloader now uses Accent Colour.
+ - Fixed: Menu being cut off on mobile screens.
+ - Fixed: Recipes tab sometimes not showing in the admin screen.
+
+V1.0.1
+
+ - Improved: Data Validation/Sanitization
+ - Added: Ability to turn off linking in Recipes widget
+ - Fixed: Fullscreen slider height
+
+V1.0.0
+
+ - Initial Release
+</pre>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="install-wordpress" class="section-title">
+		<div class="container">
+			<h1>02 - Installation - WordPress</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>If you are new to WordPress, then installing it might seem like a daunting task. Thankfully, a lot
+		of web hosts offer a one-click install that will do all the heavy lifting for you! Each web
+		host differs from one another, so if you are unsure, then you should contact them and they
+		will help you through the process.</p>
+		<p>The option to install WordPress on your server is found somewhere in the menu when you
+		log in to your web hosts control panel. Its sometimes found in the form of a CGI script.</p>
+		<img src="images/web-host-panel.jpg" alt="" />
+		<p>The above example is from Heart Internet's control panel. You might see something similar to this. Choose the
+		WordPress option and it will usually prompt you to select a path to install it to. From here you can follow
+		some simple steps, like creating a new username and password, and then that should be all you need to do!</p>
+		<p>Once you have logged in to your WordPress admin dashboard, it is highly recommended to update to
+		the latest version if you get prompted to do so. You should also update your plugins and other themes
+		to their latest versions too. Once everything has been updated, you should go to your <strong>Settings</strong>
+		menu and configure all relevant options in there.</p>
+		<h5>Installing WordPress Manually</h5>
+		<p>If you prefer, you can install WordPress yourself manually. The absolute best place to start is
+		to follow the instructions outlined in the codex, which can be found <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">here</a>.</p>
+		<h5>Important Note</h5>
+		<p>The latest version of WordPress, as of writing this, is currently 4.1
+		Please note that the theme will refuse to function and switch back to the default theme if you don't
+		have the latest version of WordPress. This is because the theme uses some of the newer functionality
+		that has only just been introduced in version 4.1.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="install-theme" class="section-title">
+		<div class="container">
+			<h1>03 - Installation - The Theme</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>With WordPress installed and updated, you can now begin to install the theme. In your WordPress admin panel, navigate to
+		<strong>Appearance</strong> then click on <strong>Themes</strong>. This will take you to the <strong>Themes</strong> page.
+		You should now see a list of themes to choose from with the option to add a new one (you can't miss it, its a big box that
+		says "Add New Theme"!). Go ahead and click on that.</p>
+		<img src="images/add-theme.jpg" alt="" />
+		<p>You will now be on the <strong>Add Themes</strong> page. Next, click on <strong>Upload Theme</strong>.</p>
+		<img src="images/upload-theme.jpg" alt="" />
+		<p>It should now prompt you to upload a theme in a .ZIP file format. Click on the "Browse" button and select the zip file
+		named "hungry-theme.zip" then click on <strong>Install Now</strong>.</p>
+		<img src="images/browse-theme.jpg" alt="" />
+		<p>This process may take a few minutes. Once the theme has been installed, you will have the option to view it in the <strong>
+		Customizer</strong> or activate it. Viewing it in the Customizer will allow you to preview it and make a few
+		customizations, just make sure that you activate it when you are finished.</p>
+		<img src="images/activate-theme.jpg" alt="" />
+		<p>Now that your theme has been installed and activated, you should see a warning notice telling you to install some plugins.
+		Please proceed on to the next chapter for instructions on what to do next.</p>
+		<h5>Problems you Might Encounter</h5>
+		<p>When uploading the theme (or any large file), you may encounter the following error message:</p>
+<pre>
+Maximum file size upload limit exceeded.
+</pre>
+		<p>This means that you cannot upload files that are higher than the maximum size limit, which could be as low as 2MB. This mostly
+		depends on your web server. This can easily be fixed if you have FTP access and are able to edit either the "php.ini" file,
+		or the ".htaccess" file.</p>
+		<p>The following link will give you several different methods of how to resolve this. But if you really don't want to go and
+		edit these files yourself, please contact your web host. They should be able to help you out in no time :)</p>
+		<p><a href="http://www.wpbeginner.com/wp-tutorials/how-to-increase-the-maximum-file-upload-size-in-wordpress/" target="_blank">
+		How to Increase the Maximum file upload size in WordPress</a></p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="install-plugins" class="section-title">
+		<div class="container">
+			<h1>04 - Installation - The Plugins</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> makes use of three plugins, one of which is required to enhance functionality, while the other two
+		are optional, but also enhances functionality. After installing the theme, you should now have a warning notice at the top
+		of your page promting you to install plugins. Clicking on "Begin Installing Plugins" should automatically start downloading and
+		installing the plugins.</p>
+		<img src="images/install-plugins.jpg" alt="" />
+		<p>Once the plugins have been downloaded and unpacked, you will now have the option to install the plugins all at once. 
+		To do this, check all the boxes and choose the
+		"Install" option from the dropdown menu, then click on "Apply".</p>
+		<img src="images/bulk-install.jpg" alt="" />
+		<p>Now all of your plugins should be installed, but they won't be activated yet. This is the next step. You should now
+		see another notice saying that each of the plugins are currently inactive. So lets rectify that by clicking on 
+		"Begin activating plugins".</p>
+		<img src="images/activate-plugins.jpg" alt="" />
+		<p>You will come to another screen with the option to "Bulk" install the plugins. So once again, check all the boxes like you
+		did earlier, but this time select "Activate" from the dropdown menu, then click on "Apply".</p>
+		<p>All of your plugins should now be activated and no further action is needed. If you visit your plugin page, you
+		should see that these plugins are active. You can also deactivate plugins from this page too.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="child-theme" class="section-title">
+		<div class="container">
+			<h1>05 - Using a Child Theme</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>Also included in the download package is a child theme. Using a child theme is optional but if you
+		plan to add your own functions and code, then it is highly recommended that you use this instead of modifying the
+		main theme files. If you would like to know
+		more about WordPress child themes, please visit the <a href="http://codex.wordpress.org/Child_Themes" target="_blank">Codex</a>.</p>
+		<p>Child themes allow you to add your own code, functionality and styles without changing any of the main template files. This is
+		especially useful when ever you update your theme because this means all of you chnages will remain intact. If you look in the
+		main download package you will see a folder named "hungry-child". Simply copy this folder into your "themes" directory using
+		an FTP client. Here's what your directory structure might look like with a child theme installed:</p>
+<pre>
+..
+hungry
+hungry-child
+	| - style.css
+	| - functions.php
+</pre>
+		<p>If you would rather not go down the FTP route, there are plugins available too. Here's a good place to
+		start: <a href="https://wordpress.org/plugins/one-click-child-theme/" target="_blank">One Click Child Theme</a>.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="import" class="section-title">
+		<div class="container">
+			<h1>06 - Importing Demo Content</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>This step is completely optional but if you'd rather have a load of demo content to play around with, then thats what
+		this chapter is for. <strong>Hungry</strong> comes with a file that will import all the content you see on the
+		demo site, minus the images. The images are replaced with placeholders instead as they are not licensed to be bundled
+		with the theme. If you would like more information on where to download and purchase these images, please see the credits
+		section further down at the end of this document.</p>
+		<p>In your main download file, you will see a folder named "demo". This folder contains an XML file that is used to import
+		all of the data needed. The file is called "hungry-demo-data.xml" and you will need this file a bit later on. Lets go through
+		this process one step at a time.</p>
+		<h5>Step 01</h5>
+		<p>Firstly, navigate your way to <strong>Tools -> Import</strong>. This will take you to the <strong>Import</strong> screen. This
+		handy tool will let you import content from a variety of different blogging platforms, but for this, we are going to select
+		<strong>WordPress</strong>.</p>
+		<img src="images/import.jpg" alt="" />
+		<h5>Step 02</h5>
+		<p>Once the WordPress option has been selected, you may be prompted to install the <strong>WordPress Importer</strong> plugin if you
+		don't already have it. So if you need to, install this first by clicking on the "Install Now" button in the pop up window. Once
+		the plugin has been downloaded and unpacked, you should activate and run the plugin when prompted to do so.</p>
+		<h5>Step 03</h5>
+		<p>You will now be taken to the <strong>Import WordPress</strong> page. You will need to click on the "Browse" button and locate
+		the file "hungry-demo-data.xml" mentioned earlier. Once this has been selected, click on "Upload file and import". Don't forget to
+		check the options you want to include, including media, and WordPress should start the import process. It may take a while depending
+		on your connection speed.</p>
+		<img src="images/browse-xml.jpg" alt="" />
+		<p>Thats all there is to it! You should have all the posts and pages that were seen in the demo site for you to configure to your
+		hearts content.</p>
+		<h5>A note about menus</h5>
+		<p>Please be aware that if you choose to import the WordPress custom menus too, you will need to amend some of the custom
+		link's URLs to reflect your own website's URL.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="theme-options" class="section-title">
+		<div class="container">
+			<h1>07 - Theme Options</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> comes with a powerful theme options panel courtesy of the <em>Redux Framework</em>. Throughout the
+		option's pages, there are explanations on what each option does, so this will only be a quick overview.
+		To access the theme options, simply click on the tab that says <strong>Hungry Options</strong> on
+		the left. You can also access it directly through the admin bar at the top.</p>
+		<img src="images/options-access.jpg" alt="" />
+		<p>You can navigate through each options page using the menu on the left. Note that some of these menu tabs also have
+		submenus that reveal more pages. Each option has a brief description of what it does and how it is configured so please
+		take some time to have a read through each one to get a good idea of what to do.</p>
+		<img src="images/options-general.jpg" alt="" />
+		<p>You will also notice that each "built-in" section has its own options page, like the <strong>About Us</strong> section. This
+		makes it easier for beginners to customize the look of their site without having to do any coding. Customizing the background
+		slider is as easy as navigating to the <strong>Background Slider</strong> tab and tweaking the settings.</p>
+		<img src="images/theme-options.jpg" alt="" />
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="custom-headers" class="section-title">
+		<div class="container">
+			<h1>08 - Custom Headers</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> makes use of WordPress's custom header feature. These headers will appear on all pages except the homepage
+		template, which uses a custom slider instead. To add a custom header, go to your admin area and click on <strong>Appearance
+		</strong> then <strong>Header</strong> in the side menu. This will take you to the customizer screen (as of WordPress 4.1), where you
+		can upload not just one, but multiple header images and randomly show different ones on each page if you want!</p>
+		<img src="images/custom-header.jpg" alt="" />
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="homepage-setup" class="section-title">
+		<div class="container">
+			<h1>09 - Homepage Setup</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>Once you have the theme and plugins installed, we can now move on to the Homepage. The first thing you will need to do is create a new
+		page. You can do this by navigating to the <strong>Pages</strong> tab on the left and either create a new page, or edit an existing one. To
+		create a new page, click on <strong>Add New</strong>.</p>
+		<img src="images/add-page.jpg" alt="" />
+		<p>While editing the page, you will notice a section called <strong>Page Attributes</strong>. This is where you can select your
+		page templates using the dropdown menu that says <strong>Template</strong>. From this menu, select the <strong>One Page Layout</strong>.</p>
+		<img src="images/choose-template.jpg" alt="" />
+		<p>This is kind of a special page template, so all of the post content and feature image will be ignored here, but not the page title. You 
+		can call it whatever you like, but I would recommend calling it "Home" or something similar. Go ahead and click on <strong>Update</strong> to update your page
+		or <strong>Publish</strong> if its a new page.</p>
+		<p>Since your blog page is usually your default front page, we now need a seperate page to display your blog posts. So just like before, 
+		click on your <strong>Pages</strong> tab and create a new page. Call this one "Blog", "News" or something similar and click <strong>Publish</strong>.
+		Again, there's no need to enter any content. We're going to let WordPress handle this.</p>
+		<p>Now you will need to visit your <strong>Settings</strong> page and select the <strong>Reading</strong> tab. You should now be on the <strong>
+		Reading Settings</strong> page. For the <strong>Front Page Displays</strong> option you will need to select your "Home" page as your Front page,
+		and select your "Blog" page as your blog page.</p>
+		<img src="images/set-homepage.jpg" alt="" />
+		<p>Once all this is done, don't forget to click <strong>Save Changes</strong>! You can now visit your site and see the homepage. All the content you see
+		is default content that can be edited through either the theme options panel, or elsewhere depending on the section you wish to edit. Please see one of
+		the other chapters in this guide for further information.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="home-layout" class="section-title">
+		<div class="container">
+			<h1>10 - Homepage Layout</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> comes with a robust homepage layout builder that allows you to swap, move, insert and remove
+		any section you like. This is accessed through the theme options page by clicking on the <strong>Homepage</strong> tab.</p>
+		<img src="images/home-layout.jpg" alt="" />
+		<p>By default, the homepage template is built with two types of sections: Built-in sections and custom sections. Built-in
+		sections are already available by default and can be customized in the theme options panel. Custom sections work differently
+		however. This type of section uses content from your WordPress pages.</p>
+		<p>The two columns that you see represent what is enabled and disabled for display on the homepage. You can use the mouse to
+		drag blocks to re-order them or remove them completely. Custom sections are labelled with the name of your WordPress pages
+		and are prefixed with a page icon.</p>
+		<img src="images/drag-blocks.jpg" alt="" />
+		<p>Once you have all the sections where you want, don't forget to click on <strong>Save Changes</strong>. Here's a tip: If
+		you need more control over a custom section's padding, edit the page itself and edit the options associated with the
+		one-page layout, shown in the screenshot below.</p>
+		<img src="images/one-page-options.jpg" alt="" />
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="navigation" class="section-title">
+		<div class="container">
+			<h1>11 - Navigation</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>WordPress's cutom menus allows you to create same-page navigation as well as multi-page navigation. This chapter will
+		cover the basics of WordPress menus and how to link to sections that are on the same page. First, navigate to
+		<strong>Appearance -> Menus</strong>. This will take you to the "Edit Menus" screen.</p>
+		<img src="images/edit-menus.jpg" alt="" />
+		<p>From here you can begin building your custom menu. Give your menu a name, then click on "Create Menu". This will
+		save your new menu so you can add it to a location. Now you can click on <strong>Manage Locations</strong> and
+		select your newly created menu from the dropdown list and set it as your site's main navigation. Click on "Save Changes" when
+		you're done.</p>
+		<img src="images/manage-locations.jpg" alt="" />
+		<p>When you visit your site now, you will see your new menu in the main navigation bar. You can put anything you like
+		in your menus, including custom links. This is what we are going to need to do in order to link to sepearate sections
+		on the same page.</p>
+		<p>Go back to the "Edit Menus" screen from earlier and create a new menu item by clicking on the <strong>Links</strong> tab.
+		For the URL field, type in the full URL of your site followed by a hash symbol (#) and then the name of the section's
+		ID. For example, if you wanted to create a link to the "About Us" section, this is what your URL might look like:</p>
+<pre>
+http://www.exampleurl.com/#hungry-about-us
+</pre>
+		<p>The above example is based on if you set your one-page layout as your homepage. If it was a seperate page, then you would need
+		to use the full URL of that page followed by the hash tag ending, like so:</p>
+<pre>
+http://www.exampleurl.com/seperate-page/#hungry-about-us
+</pre>
+		<p>The following is a list of all available built-in sections to link to:</p>
+		<ul>
+			<li><strong>About Us</strong> - <code>#hungry-about-us</code></li>
+			<li><strong>Blog</strong> - <code>#hungry-blog</code></li>
+			<li><strong>Gallery</strong> - <code>#hungry-gallery</code></li>
+			<li><strong>Food Menu</strong> - <code>#hungry-menu</code></li>
+			<li><strong>Reservations</strong> - <code>#hungry-reservations</code></li>
+			<li><strong>Slogan 01</strong> - <code>#hungry-slogan-01</code></li>
+			<li><strong>Slogan 02</strong> - <code>#hungry-slogan-02</code></li>
+			<li><strong>Meet the Staff</strong> - <code>#hungry-staff</code></li>
+			<li><strong>Testimonials</strong> - <code>#hungry-testimonials</code></li>
+			<li><strong>Custom Section</strong> - <code>#hungry-custom-section-{ID}</code> - Replace {ID} with your page's ID number. This
+			is a numeric value and can be found by hovering your mouse over the post's link.</li>
+		</ul>
+		<h5>A note about importing menus</h5>
+		<p>Please be aware that if you choose to import the WordPress custom menus when importing data, you will need to amend some of the custom
+		link's URLs to reflect your own website's URL.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="adding-recipes" class="section-title">
+		<div class="container">
+			<h1>12 - Adding Recipes</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>Before you can add Menus and Recipes, you will need to make sure that the <strong>Hungry Plugin</strong> is installed
+		and activated. If not, please go through chapter 02 on installing plugins first. You will be able to see the <strong>Recipes</strong> tab in the menu on the left when you are logged in to
+		your WordPress admin.</p>
+		<h5>Creating Menus</h5>
+		<p>Creating menus for your recipes is very similar to creating categories for your regular WordPress posts. If you click
+		or hover over the <strong>Recipes</strong> tab in the left hand menu, you will see the <strong>Menus</strong> option. Go ahead and click on that.</p>
+		<img src="images/menus-tab.jpg" alt="" />
+		<p>You should now be on the <strong>Menus</strong> page. You can add as many menus as you want and you can even assign recipes to several
+		menus, not just one! Fill out the information required on the left and then click <strong>Add New Menu</strong>. These are the fields you
+		need to fill in;</p>
+		<ul>
+			<li><strong>Name</strong> - This is a required field. The name of your menu.</li>
+			<li><strong>Slug</strong> - Optional. If left blank, WordPress will create a slug name for you.</li>
+			<li><strong>Description</strong> - Optional. This will only be displayed on Taxonomy pages.</li>
+		</ul>
+		<img src="images/menu-details.jpg" alt="" />
+		<p>You don't have to create new menus this way, you can also create them while creating recipes. Just like adding categories in posts.
+		It's completely up to you!</p>
+		<h5>Creating Recipes</h5>
+		<p>If you are already familiar with creating posts, then you are half way there! Click on your <strong>Recipes</strong> tab in the
+		left and select <strong>Add New</strong>. This will take you to the <strong>Add New Recipe</strong> screen.</p>
+		<img src="images/add-new-recipe.jpg" alt="" />
+		<p>If you have been using WordPress for a while, this screen will look familiar to you. All of the basic fields you edit in regular posts can
+		be found here too, but with a few extra ones. Lets begin by filling out our standard fields.</p>
+		<ul>
+			<li><strong>Title</strong> - Add a title for your recipe (e.g. Garlic Bread).</li>
+			<li><strong>Content</strong> - Enter some content. This can be anything you like. Shortcodes are allowed.</li>
+			<li><strong>Menus</strong> - Add this recipe to an exisitng menu, or create a new one. If you create a new one, you can edit
+			it further in the <em>Menus</em> page mentioned ealier.</li>
+			<li><strong>Featured Image</strong> - Just like normal posts, you can attach a featured image to each recipe. Ideally this should
+			be a photo of the dish in question.</li>
+			<li><strong>Excerpt</strong> - You can use this field to show a smaller description shown in the menu. If nothing is entered here,
+			the first twenty words are used from your content instead.</li>
+		</ul>
+		<p>The next set of options is where recipes differ from normal posts. Further down the page, there is another area with
+		extra fields that are specific to recipes. Lets go through them one at a time.</p>
+		<ul>
+			<li><strong>Price on Menu</strong> - Enter a price for this recipe. The currency symbol can be changed in the theme options.</li>
+			<li><strong>Featured Item</strong> - Check this option to make it a featured item on the menu. This simply styles it differently to
+			other menu items so that it stands out more.</li>
+			<li><strong>Link to recipe from menu</strong> - Check this option if you want to allow the user to visit the recipe's main page.</li>
+			<li><strong>Tooltip Text</strong> - Tooltip text can be displayed when the user hovers over the price tab. Can be effective when
+			used with the "Featured Item" option.</li>
+			<li><strong>Warning Text</strong> - This can be used to display some useful info on the current dish, such as if it contains a
+			certain ingredient, like nuts for example.</li>
+			<li><strong>Widget Excerpt</strong> - This is only used with the <em>Latest Recipes</em> widget that is displayed in sidebars. Use
+			it to show a brief description of the dish in just a few words.</li>
+			<li><strong>Page Layout</strong> - Display the content on the left or right side of the page in the main post page.</li>
+		</ul>
+		<img src="images/recipe-options.jpg" alt="" />
+		<p>Thats all there is to creating recipes! But what good are recipes without having a menu to show them on? Well, you can check
+		out the next chapter on how to do this.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="menus" class="section-title">
+		<div class="container">
+			<h1>13 - Displaying Menus</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>Once you have a good amount of recipes created, its time to show them on your site. There are two ways you can
+		do this with this theme. The first and easiest way is to display them using the <strong>Food Menu</strong> section
+		which you can edit in the theme options. The second way is to use a shortcode.</p>
+		<h5>The simple way</h5>
+		<p>There is a section on your <strong>One-Page</strong> template that is designed specifically for showing your
+		food menus. Firstly, visit the theme options page in your admin area and click on the <strong>Section - Food Menu</strong>
+		tab.</p>
+		<img src="images/food-menu.jpg" alt="" />
+		<p>You will have a few options here to play with, inlcuding how to sort each menu item. The sorting options use WordPress's
+		own post sorting options. The main option however, are the three columns and the layout option. You can assign menus to each
+		column by selecting them from the dropdown menus. You can then choose either a one, two or three column layout. Once you
+		have selected the menus you want to display, click on <strong>Save Changes</strong>. If you visit your site now, you should see
+		the menus that were chosen.</p>
+		<img src="images/menu-options.jpg" alt="" />
+		<img src="images/menu-front-end.jpg" alt="" />
+		<p>You can go back and change menus and layouts anytime you need. Simply remove the menu from the column by clicking on the 
+		<strong>X</strong> icon found on the left of each menu item.</p>
+		<h5>The shortcode way</h5>
+		<p>If you prefer your menus to be on a seperate page and need to customize the layout a bit more, you can also use a shortcode.
+		Here's an example:</p>
+<pre>
+[hungry-menu menu="Main Dishes"]
+</pre>
+		<p>The <code>menu</code> attribute is the name of the menu you wish to display. Please don't confuse this with the slug name for
+		that menu. Make sure the name is exactly the way it is when you created the menu, including capital letters. You can even nest these
+		shortcodes within column shortcodes for a more unique layout. See the chapter on shortcodes for more information on this.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="gallery" class="section-title">
+		<div class="container">
+			<h1>14 - Gallery</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> makes use of WordPress's native media uploader to manage your gallery in the gallery section of the
+		one-page template. Go into your theme options page and select the <strong>Section - Gallery</strong> tab.</p>
+		<img src="images/add-gallery.jpg" alt="" />
+		<p>From here, you can use the <strong>Add/Edit Gallery</strong> button to add and sort images in your gallery. When you click
+		on this button, the media upload screen will appear. You will need to click on "Add to Gallery" from the menu on the left in order
+		to select your images. When you select an image, you will notice an extra <strong>Class</strong> field under the usual caption
+		and description fields. You can enter a class name of "wide" here (without the quotes) to make your image span accross
+		two columns.</p>
+		<img src="images/edit-gallery.jpg" alt="" />
+		<p>The theme uses the jQuery Masonry plugin to layout your images automiatically, but if you find that your images are not
+		displaying in the order you intended, go back and edit your gallery and re-order them. Sometimes it takes a little trial and
+		error.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="custom-widgets" class="section-title">
+		<div class="container">
+			<h1>15 - Custom Widgets</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> comes with three custom widgets to display in your sidebar and footer. Sidebars can
+		be configured by navigating to <strong>Appearance -> Widgets</strong> in your WordPress admin. If you need more
+		information on what WordPress widgets are and how they work, please visit the 
+		<a href="http://codex.wordpress.org/WordPress_Widgets" target="_blank">WordPress codex</a>.</p>
+		<img src="images/widgets-screen.jpg" alt="" />
+		<p>The <strong>Hungry - Contact Details</strong> widget is useful for displaying contact details such as your email,
+		work address, and telephone number. Simply drag the widget to the desired sidebar and then fill out all the fields.
+		Don't forget to click "Save" when you're done!</p>
+		<img src="images/widget.jpg" alt="" />
+		<p>When visiting your site now, you should see the widget displayed in your chosen sidebar. In this example, I've selected
+		one of the footer columns.</p>
+		<img src="images/footer-widget.jpg" alt="" />
+		<p>There are two more custom widgets you can use. The <strong>Hungry - Latest Recipes</strong> widget will display the
+		latest entries in your recipes, including a thumbnail image and a short excerpt, which is configurable when editing
+		the post. The <strong>Hungry - Opening Times</strong> widget allows you to display a list of opening hours for your
+		business. You can wrap the times in <code>&lt;span&gt;</code> tags to align them to the right. You can also use
+		<code>&lt;span class="closed"&gt;Closed&lt;/span&gt;</code> to display a closed sign instead.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="shortcodes" class="section-title">
+		<div class="container">
+			<h1>16 - Shortcodes</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p>Shortcodes have been around for a while in WordPress. They provide you with a way to insert content into your posts and
+		pages that would require additional code such as HTML or PHP. They are usually wrapped in square brackets and have a unique name.
+		You don't have to type them all out manually either, thanks to the shortcode generator provided. You will find the shortcode
+		generator button along with all the other controls in the editor window.</p>
+		<img src="images/shortcodes-button.jpg" alt="" />
+		<p>Clicking on this will bring up a list of all available shortcodes where you can also type in specific shortcode attributes too.</p>
+		<img src="images/shortcode-atts.jpg" alt="" />
+		<p>Some shortcodes can be wrapped around other content in your post and some can even be nested. To learn more in depth about WordPress
+		shortcodes and how they work, please visit the <a href="http://codex.wordpress.org/Shortcode_API" target="_blank">Shortcode API</a> over at WordPress.
+		Below is a list of all available shortcodes for this theme.</p>
+		<h5>Columns</h5>
+		<p>The column shortcode provides you with a way to layout your content using a grid system. There are two types of this shortcode in the 
+		shortcode generator. They are <strong>Simple</strong> and <strong>Advanced</strong>. The advanced version simply provides you with
+		more attributes to use, such as how you might want the layout to look on smaller screens. Here's a basic example:</p>
+<pre>
+[col grid="50" tgrid="100" mgrid="100"]
+
+Custom content...
+
+[/col]
+</pre>
+		<p>The example above will create a column that is 50% wide on desktop screens, but 100% wide on all over devices. The complete list
+		of attributes you can use include:</p>
+		<ul>
+			<li><strong>grid</strong> - Width of the column in percentages and increments of 5.</li>
+			<li><strong>tgrid</strong> - Width on Tablet view</li>
+			<li><strong>mgrid</strong> - Width on Mobile view</li>
+			<li><strong>pre</strong> - Space before the column (Prefix)</li>
+			<li><strong>suf</strong> - Space after the column (Suffix)</li>
+			<li><strong>dfirst</strong> - First column in a row on Desktop view</li>
+			<li><strong>tfirst</strong> - First column in a row on Tablet view</li>
+			<li><strong>mfirst</strong> - First column in a row on Mobile view</li>
+			<li><strong>dlast</strong> - Last column in a row on Desktop view</li>
+			<li><strong>tlast</strong> - Last column in a row on Tablet view</li>
+			<li><strong>mlast</strong> - Last column in a row on Mobile view</li>
+			<li><strong>dhide</strong> - Hide column on Desktop view</li>
+			<li><strong>thide</strong> - Hide column on Tablet view</li>
+			<li><strong>mhide</strong> - Hide column on Mobile view</li>
+		</ul>
+		<h5>Food Menus</h5>
+		<p>In addition to the theme options, you can also display menus using a shortcode. Here's an example:</p>
+<pre>
+[hungry-menu menu="Main Dishes"]
+</pre>
+		<p>The <code>menu</code> attribute is the name of the menu you wish to display. Please don't confuse this with the slug name for
+		that menu. Make sure the name is exactly the way it is when you created the menu, including capital letters. You can even nest these
+		shortcodes within column shortcodes for a more unique layout. Here's an example of two menus in two columns:</p>
+<pre>
+[col grid="50" tgrid="100" mgrid="100"]
+
+	[hungry-menu menu="Main Dishes"]
+
+[/col]
+[col grid="50" tgrid="100" mgrid="100"]
+
+	[hungry-menu menu="Desserts"]
+
+[/col]
+</pre>
+		<h5>Divider</h5>
+		<p>This will create a divider, usually used to seperate content. There are two types available, a normal one which displays
+		a simple graphic, and one which uses a more subtle border. Here's an example:</p>
+<pre>
+[divider type="line"]
+</pre>
+		<h5>Intro Heading</h5>
+		<p>The fancy headings you see at the top of some sections are also available as a shortcode too. Example usage:</p>
+<pre>
+[intro title="Main Title" subtitle="This is a Subtitle"]
+</pre>
+		<p>This is a self-closing shortcode, meaning you don't have to wrap it around any text.</p>
+		<h5>Font Awesome List</h5>
+		<p>Icons from the Font Awesome lirary are also available to use. A code snippet is available in the shortcode generator. Here's a list
+		example:</p>
+<pre>
+&lt;ul class="fa-ul"&gt;
+	&lt;li&gt;&lt;i class="fa-li fa fa-check"&gt;&lt;/i&gt;A List Item...&lt;/li&gt;
+	&lt;li&gt;&lt;i class="fa-li fa fa-check"&gt;&lt;/i&gt;A List Item...&lt;/li&gt;
+	&lt;li&gt;&lt;i class="fa-li fa fa-check"&gt;&lt;/i&gt;A List Item...&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+		<h5>Drop Caps</h5>
+		<p>Go into <strong>Text</strong> mode. Wrap the first letter of a paragraph in <code>&lt;span class="hungry-dropcap"&gt;</code>. Example usage:</p>
+<pre>
+&lt;span class="hungry-dropcap"&gt;T&lt;/span&gt;his is the start of a paragraph...
+</pre>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="reservation-form" class="section-title">
+		<div class="container">
+			<h1>17 - Open Table Widget</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> makes use of the <strong>Open Table</strong> plugin by <em>Devin Walker</em>. This plugin
+		can be seen in action on the demo site and can be used as a widget and a shortcode. It integrates with the Open Table
+		API to allow visitors to make bookings for your restaurant (or any restaurant registered with Open Table for that
+		matter!). If you would like to try it out, there is a free version available in the WordPress.org plugin repository.
+		The version you see in the demo is the <strong>Pro</strong> version of the plugin, which has more options available.</p>
+		<p>Below is a quick guide to using the widget and shortcode in your site, but first, be sure to check out
+		the following links for more information and download.</p>
+		<ul>
+			<li><a href="http://www.opentable.com/start/home" target="_blank">Open Table</a></li>
+			<li><a href="https://wordpress.org/plugins/open-table-widget/" target="_blank">Open Table Widget - Free Version</a></li>
+			<li><a href="https://wordimpress.com/plugins/open-table-widget-pro/" target="_blank">Open Table Widget - Pro Version</a></li>
+		</ul>
+		<p>You can download the free version by navigating to <strong>Plugins -> Add New</strong> and doing a search for
+		"open table widget". To get the <strong>Pro</strong> version however, you will need to purchase a licence. This is
+		recommended because you will get more features and full support from them.</p>
+		<h5>Using as a Widget</h5>
+		<p>After downloading and activating the plugin, go to your widgets page (Appearance -> Widgets) and you will see a new widget
+		called <strong>Open Table Widget</strong>. Simply drag it to any of your sidebars and fill out the form. Don't forget to
+		click "Save"!</p>
+		<img src="images/open-table-widget.jpg" alt="" />
+		<h5>Using as a Shortcode</h5>
+		<p>The Pro version also has a shortcode available that you can insert it into any post or page. This is demonstrated in
+		the demo site at the bottom of the page. To get the same result, go to <strong>Hungry Options -> Section - Reservations</strong> and
+		insert the follwing code into the "Main Content" field.</p>
+<pre>
+&lt;div class="hungry-open-table"&gt;
+[open-table-widget title="Booking Form" widget_style="bare-bones" max_width="100%" display_option="2" lookup_city="London, Manchester" pre_content="If you're new in town, why not use the form below to find one of our restaurants." post_content="Please allow up to 24 hours for a confirmation of your booking. Thanks!" time_start="5:00pm" time_end="9:30pm" time_increment="30" max_seats="8" label_city="Choose a City" label_date="Choose a Date" label_time="Choose a Time" label_party="How Many People?" input_submit="Find a Table!"]
+&lt;/div&gt;
+</pre>
+		<p>As you can see, the shortcode is wrapped in <code>&lt;div class="hungry-open-table"&gt;</code>. This will allow the theme to
+		style the form to blend in more with the look and feel of the theme. You can remove this is you prefer the original style of the
+		widget.</p>
+		<p>If you need more help with using this shortcode and its attributes, please visit the documentation that is available
+		at their website <a href="https://wordimpress.com/docs/open-table-widget/#shortcode-usage" target="_blank">right here</a>.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="translate" class="section-title">
+		<div class="container">
+			<h1>18 - Translations</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<p><strong>Hungry</strong> is translation ready. What this means is that all the text found throughout the theme can
+		be easily translated by using translation software such as PoEdit. This chapter will give you a brief overview of how
+		to go about making your own translations.</p>
+		<h5>Download PoEdit</h5>
+		<p>PoEdit is free translation software that can edit and configure .PO and .MO files. These files can be found in the
+		<strong>languages</strong> folder which can be found inside the main theme folder. The first thing you will need to do
+		is download and install PoEdit on your computer. You can get it <a href="http://poedit.net/" target="_blank">Right Here</a>.</p>
+		<p>Once you have PoEdit installed, you can use it to open the "en_GB.po" file located in the "languages" folder. Here's
+		what it should look like when you are editing the file in PoEdit:</p>
+		<img src="images/poedit.jpg" alt="" />
+		<h5>Making a Translation</h5>
+		<p>To make a translation, simply click on one of the phrases in the list and then re-write the text in your chosen language in the "Translation"
+		box below. You will need to do this for each phrase in the list. Once you have everything translated to your needs, don't
+		forget to save your changes!</p>
+		<p>If you need to change languages in WordPress, as of version 4.0, you can change this setting by navigating to
+		<strong>Settings -> General</strong>.</p>
+		<img src="images/languages.jpg" alt="" />
+		<p>Those are the bare the basics of translating a theme and switching languages. If you need more in-depth information on this you
+		can view a whole article on it over at the <a href="https://developer.wordpress.org/themes/functionality/localization/" target="_blank">WordPress Codex</a>.
+		There is also a handy tutorial on this subject too over at <a href="http://code.tutsplus.com/tutorials/translating-your-theme--wp-25014" target="_blank">Tutsplus</a>.</p>
+	</div>
+	
+	<!-- ################################################################## -->
+	<div id="credits" class="section-title">
+		<div class="container">
+			<h1>19 - Sources &amp; Credits</h1><a href="#toc"><i class="fa fa-arrow-up"></i>Table of Contents</a>
+		</div>
+	</div>
+	<div class="container">
+		<h5>jQuery Plugins, and <abbr title="Cascading Stylesheet">CSS</abbr> Frameworks</h5>
+		<ul>
+			<li><strong>jQuery</strong> - (<a href="http://jquery.com/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Colorbox</strong> by <em>Jack Moore</em> - (<a href="http://www.jacklmoore.com/colorbox/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Lettering</strong> by <em>Dave Rupert</em> - (<a href="http://letteringjs.com/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Nicescroll</strong> by <em>InuYaksa</em> - (<a href="http://areaaperta.com/nicescroll/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Textillate</strong> by <em>Jordan Schroter</em> - (<a href="http://jschr.github.io/textillate/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Tooltipster</strong> by <em>Caleb Jacob</em> - (<a href="http://iamceege.github.io/tooltipster/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Wow</strong> by <em>Matt Aussaguel</em> - (<a href="http://mynameismatthieu.com/WOW/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Animate</strong> by <em>Daniel Eden</em> - (<a href="http://daneden.github.io/animate.css/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Superfish</strong> by <em>Joel Birch</em> - (<a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Hover Intent</strong> by <em>Brian Cherne</em> - (<a href="http://cherne.net/brian/resources/jquery.hoverIntent.html" target="_blank">Visit Site</a>)</li>
+			<li><strong>Formalize</strong> by <em>Nathan Smith</em> - (<a href="http://formalize.me/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Font Awesome</strong> by <em>Dave Gandy</em> - (<a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Elusive Icons</strong> by <em>Presscodes</em> - (<a href="http://press.codes/downloads/elusive-icons-webfont/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Unsemantic Grid</strong> by <em>Nathan Smith</em> - (<a href="http://unsemantic.com/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Parallax</strong> by <em>Ian Lunn</em> - (<a href="http://ianlunn.co.uk/plugins/jquery-parallax/" target="_blank">Visit Site</a>)</li>
+			<li><strong>ScrollTo</strong> by <em>Ariel Flesler</em> - (<a href="https://github.com/flesler/jquery.scrollTo" target="_blank">Visit Site</a>)</li>
+			<li><strong>LocalScroll</strong> by <em>Ariel Flesler</em> - (<a href="https://github.com/flesler/jquery.localScroll" target="_blank">Visit Site</a>)</li>
+			<li><strong>Images Loaded</strong> by <em>David DeSandro</em> - (<a href="https://github.com/desandro/imagesloaded" target="_blank">Visit Site</a>)</li>
+			<li><strong>Masonry</strong> by <em>David DeSandro</em> - (<a href="http://masonry.desandro.com/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Cycle 2</strong> by <em>Malsup</em> - (<a href="http://jquery.malsup.com/cycle2/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Vide</strong> by <em>Ilya Makarov</em> - (<a href="http://vodkabears.github.io/vide/" target="_blank">Visit Site</a>)</li>
+		</ul>
+		
+		<h5>WordPress Plugins &amp; Frameworks</h5>
+		<ul>
+			<li><strong>Breadcrumb Trail</strong> by <em>Justin Tadlock</em> - (<a href="https://wordpress.org/plugins/breadcrumb-trail/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Redux Framework</strong> by <em>Team Redux</em> - (<a href="http://reduxframework.com/" target="_blank">Visit Site</a>)</li>
+			<li><strong>Custom Meta Boxes (CMB2)</strong> by <em>WebDevStudios</em> - (<a href="https://github.com/WebDevStudios/CMB2" target="_blank">Visit Site</a>)</li>
+			<li><strong>Open Table Widget</strong> by <em>Devin Walker</em> - (<a href="https://wordpress.org/plugins/open-table-widget/" target="_blank">Visit Site</a>)</li>
+		</ul>
+		
+		<h5>Fonts Used from Google Fonts</h5>
+		<ul>
+			<li>Ubuntu</li>
+			<li>Droid Serif</li>
+			<li>Aguafina Script</li>
+		</ul>
+	</div>
+	
+</section>
+<!-- END Main Content -->
+
+<!-- START Footer -->
+<footer>
+	<div class="container">
+		<p>Once again, many thanks for purchasing this theme. As mentioned earlier, you can contact me if you have any questions 
+		and I'll do my best to answer them. <a href="http://themeforest.net/user/SubatomicThemes" target="_blank" style="color: #fff; text-decoration: underline;">Click Here</a> to 
+		reach me through my	profile page. Please allow up to 24 hours for a response, but this greatly depends on how many support
+		requests I get!</p>
+		<p>Kind Regards,</p>
+		<cite>Subatomic Themes</cite>
+	</div>
+</footer>
+<!-- END Footer -->
+
+</body>
+</html>

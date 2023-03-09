@@ -1,0 +1,75 @@
+<wpml-config>
+	<admin-texts>
+		<key name="hungry_options">
+			<key name="hungry_blog_title" />
+			<key name="hungry_logo_alt" />
+			<key name="hungry_footer_logo_alt" />
+			<key name="hungry_footer_text" />
+			<key name="hungry_before_slogan" />
+			<key name="hungry_slogans">
+				<key name="Slogan 01" />
+				<key name="Slogan 02" />
+				<key name="Slogan 03" />
+				<key name="Slogan 04" />
+				<key name="Slogan 05" />
+				<key name="Slogan 06" />
+				<key name="Slogan 07" />
+				<key name="Slogan 08" />
+				<key name="Slogan 09" />
+				<key name="Slogan 10" />
+			</key>
+			<key name="hungry_social_tooltip_01" />
+			<key name="hungry_social_tooltip_02" />
+			<key name="hungry_social_tooltip_03" />
+			<key name="hungry_social_tooltip_04" />
+			<key name="hungry_social_tooltip_05" />
+			<key name="hungry_social_tooltip_06" />
+			<key name="hungry_about_us_title" />
+			<key name="hungry_about_us_subtitle" />
+			<key name="hungry_about_us_content" />
+			<key name="hungry_testimonials_heading" />
+			<key name="hungry_testimonial_quote_01" />
+			<key name="hungry_testimonial_cite_01" />
+			<key name="hungry_testimonial_quote_02" />
+			<key name="hungry_testimonial_cite_02" />
+			<key name="hungry_testimonial_quote_03" />
+			<key name="hungry_testimonial_cite_03" />
+			<key name="hungry_testimonial_quote_04" />
+			<key name="hungry_testimonial_cite_04" />
+			<key name="hungry_food_title" />
+			<key name="hungry_food_subtitle" />
+			<key name="hungry_slogan_01_text" />
+			<key name="hungry_slogan_02_text" />
+			<key name="hungry_slogan_03_text" />
+			<key name="hungry_slogan_04_text" />
+			<key name="hungry_team_title" />
+			<key name="hungry_team_subtitle" />
+			<key name="hungry_team_01_name" />
+			<key name="hungry_team_01_role" />
+			<key name="hungry_team_01_desc" />
+			<key name="hungry_team_01_icon_01_tooltip" />
+			<key name="hungry_team_01_icon_02_tooltip" />
+			<key name="hungry_team_01_icon_03_tooltip" />
+			<key name="hungry_team_02_name" />
+			<key name="hungry_team_02_role" />
+			<key name="hungry_team_02_desc" />
+			<key name="hungry_team_02_icon_01_tooltip" />
+			<key name="hungry_team_02_icon_02_tooltip" />
+			<key name="hungry_team_02_icon_03_tooltip" />
+			<key name="hungry_team_03_name" />
+			<key name="hungry_team_03_role" />
+			<key name="hungry_team_03_desc" />
+			<key name="hungry_team_03_icon_01_tooltip" />
+			<key name="hungry_team_03_icon_02_tooltip" />
+			<key name="hungry_team_03_icon_03_tooltip" />
+			<key name="hungry_gallery_title" />
+			<key name="hungry_gallery_subtitle" />
+			<key name="hungry_blog_title" />
+			<key name="hungry_blog_subtitle" />
+			<key name="hungry_blog_button_text" />
+			<key name="hungry_reservations_title" />
+			<key name="hungry_reservations_subtitle" />
+			<key name="hungry_reservations_content" />
+		</key>
+	</admin-texts>
+</wpml-config>
