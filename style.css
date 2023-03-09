@@ -967,12 +967,7 @@ label {
 }
 .site-title:hover { color: #e5e5e5; }
 
-/**
- *
- *  4.1  - Mobile Navigation
- *  ---------------------------------------------------------------------------
- *
- */
+
 .mobile-nav {
 	float: right;
 	width: 60px;
@@ -1037,12 +1032,6 @@ label {
 .mobile-close i:before { color: #fff; }
 .mobile-close:hover i:before { color: #000; }
 
-/**
- *
- *  4.2  - Subpage Intro
- *  ---------------------------------------------------------------------------
- *
- */
 #subpage-header {
 	background-color: #353535;
 	margin-bottom: 75px;
@@ -1092,12 +1081,6 @@ label {
 	background-size: 70px 24px;
 }
 
-/**
- *
- *  4.3  - Breadcrumb Trail
- *  ---------------------------------------------------------------------------
- *
- */
 .breadcrumb-trail {
 	display: inline;
 	background: #000;
@@ -1124,12 +1107,6 @@ label {
 	top: 1px;
 }
 
-/**
- *
- *  4.4  - Navigation Menu (Superfish)
- *  ---------------------------------------------------------------------------
- *
- */
 .sf-menu, .sf-menu * {
 	margin: 0;
 	padding: 0;
@@ -1404,12 +1381,6 @@ font-weight:bold;
 .taxonomy-description p { margin: 0; }
 .sticky{}
 
-/**
- *
- *  5.1  - Post Header
- *  ---------------------------------------------------------------------------
- *
- */
 .post-container header { position: relative; }
 .post-sticky-label {
 	position: absolute;
@@ -1501,12 +1472,6 @@ font-weight:bold;
 	        box-shadow: 0 0 18px rgba(0,0,0,0.12);
 }
 
-/**
- *
- *  5.2  - Post Content
- *  ---------------------------------------------------------------------------
- *
- */
 .alignleft {
 	float: left;
 	margin-right: 30px;
@@ -1540,12 +1505,6 @@ font-weight:bold;
 .page-links span { color: #000; }
 .page-links a span { text-decoration: underline; }
 
-/**
- *
- *  5.3  - Post Footer
- *  ---------------------------------------------------------------------------
- *
- */
 .post-tags { margin-bottom: 40px; }
 .post-tags:after {
 	content: "";
@@ -1578,12 +1537,6 @@ font-weight:bold;
 }
 .post-tags a:hover { color: #fff; }
 
-/**
- *
- *  5.4  - Post Navigation
- *  ---------------------------------------------------------------------------
- *
- */
 .navigation.post-navigation,
 .navigation.comment-navigation,
 .navigation.pagination { margin-bottom: 140px; }
@@ -1654,12 +1607,7 @@ font-weight:bold;
 	padding: 60px 10px;
 }
 
-/**
- *
- *  5.5  - Post Comments
- *  ---------------------------------------------------------------------------
- *
- */
+
 .comments-title {
 	font-size: 24px;
 	font-weight: normal;
